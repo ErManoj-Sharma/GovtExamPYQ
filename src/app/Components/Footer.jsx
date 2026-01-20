@@ -7,13 +7,13 @@ const Footer = () => {
     <footer className="text-gray-600 bg-white dark:bg-black body-font dark:bg-gray-800 dark:text-white">
       <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
         <div className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900 dark:text-gray-200">
-          <Image
+          {/* <Image
             width="48"
             height="48"
             src="/Manoj_Sharma.jpg"
             alt="CodeWithManoj Logo"
             className="rounded-3xl h-12"
-          />
+          /> */}
           <div className="ml-3  text-primary-700 dark:text-primary-dark-700  text-xl">RajGovtExamPYQ</div>
         </div>
         <p className="text-sm  text-primary-700 dark:text-primary-dark-700 text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 mt-4 md:mt-2 mb-2 md:mb-0 text-center dark:text-gray-400">
