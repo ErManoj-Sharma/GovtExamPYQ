@@ -11,6 +11,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Rajasthan GK",
     "correct_answer": "C"
   },
@@ -26,6 +27,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "History",
     "correct_answer": "A"
   },
@@ -41,6 +43,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Rajasthan GK",
     "correct_answer": "A"
   },
@@ -56,6 +59,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Rajasthan GK",
     "correct_answer": "D"
   },
@@ -71,6 +75,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "General Knowledge",
     "correct_answer": "A"
   },
@@ -86,6 +91,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "General Knowledge",
     "correct_answer": "D"
   },
@@ -101,6 +107,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "General Knowledge",
     "correct_answer": "C"
   },
@@ -116,6 +123,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Mathematics",
     "correct_answer": "B"
   },
@@ -131,6 +139,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Indian Polity",
     "correct_answer": "C"
   },
@@ -146,6 +155,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Mathematics",
     "correct_answer": "B"
   },
@@ -161,6 +171,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Art & Culture",
     "correct_answer": "B"
   },
@@ -176,6 +187,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Rajasthan GK",
     "correct_answer": "A"
   },
@@ -193,6 +205,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Data Interpretation",
     "correct_answer": "C"
   },
@@ -208,6 +221,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Mathematics",
     "correct_answer": "D"
   },
@@ -223,6 +237,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Indian Polity",
     "correct_answer": "C"
   },
@@ -238,6 +253,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Computer Science",
     "correct_answer": "A"
   },
@@ -253,6 +269,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Mathematics",
     "correct_answer": "A"
   },
@@ -268,6 +285,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "General Knowledge",
     "correct_answer": "A"
   },
@@ -283,6 +301,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Rajasthan GK",
     "correct_answer": "C"
   },
@@ -298,6 +317,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Rajasthan GK",
     "correct_answer": "C"
   },
@@ -313,6 +333,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Rajasthan GK",
     "correct_answer": "B"
   },
@@ -328,6 +349,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Geography",
     "correct_answer": "C"
   },
@@ -343,6 +365,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Art & Culture",
     "correct_answer": "B"
   },
@@ -358,6 +381,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Rajasthan GK",
     "correct_answer": "D"
   },
@@ -373,6 +397,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Geography",
     "correct_answer": "B"
   },
@@ -388,6 +413,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Rajasthan GK",
     "correct_answer": "B"
   },
@@ -403,6 +429,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Science",
     "correct_answer": "A"
   },
@@ -418,6 +445,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "General Knowledge",
     "correct_answer": "D"
   },
@@ -433,6 +461,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Rajasthan GK",
     "correct_answer": "A"
   },
@@ -448,6 +477,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Mathematics",
     "correct_answer": "C"
   },
@@ -463,6 +493,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Rajasthan GK",
     "correct_answer": "D"
   },
@@ -478,6 +509,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Rajasthan GK",
     "correct_answer": "B"
   },
@@ -493,6 +525,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Rajasthan GK",
     "correct_answer": "C"
   },
@@ -508,6 +541,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Art & Culture",
     "correct_answer": "C"
   },
@@ -523,6 +557,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Chemistry",
     "correct_answer": "C"
   },
@@ -538,6 +573,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Geography",
     "correct_answer": "B"
   },
@@ -553,6 +589,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Mathematics",
     "correct_answer": "B"
   },
@@ -568,6 +605,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Mathematics",
     "correct_answer": "D"
   },
@@ -583,6 +621,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Rajasthan GK",
     "correct_answer": "D"
   },
@@ -598,6 +637,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "General Knowledge",
     "correct_answer": "A"
   },
@@ -613,6 +653,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "General Knowledge",
     "correct_answer": "B"
   },
@@ -628,6 +669,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "General Knowledge",
     "correct_answer": "B"
   },
@@ -643,6 +685,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "General Knowledge",
     "correct_answer": "A"
   },
@@ -658,6 +701,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Art & Culture",
     "correct_answer": "B"
   },
@@ -673,6 +717,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Mathematics",
     "correct_answer": "A"
   },
@@ -688,6 +733,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "General Knowledge",
     "correct_answer": "A"
   },
@@ -703,6 +749,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Indian Polity",
     "correct_answer": "A"
   },
@@ -718,6 +765,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "General Knowledge",
     "correct_answer": "B"
   },
@@ -733,6 +781,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Indian Polity",
     "correct_answer": "B"
   },
@@ -748,6 +797,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Rajasthan GK",
     "correct_answer": "B"
   },
@@ -763,6 +813,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Rajasthan GK",
     "correct_answer": "C"
   },
@@ -778,6 +829,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Geography",
     "correct_answer": "B"
   },
@@ -793,6 +845,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "General Knowledge",
     "correct_answer": "A"
   },
@@ -808,6 +861,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Rajasthan GK",
     "correct_answer": "A"
   },
@@ -823,6 +877,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "General Knowledge",
     "correct_answer": "A"
   },
@@ -838,6 +893,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "General Knowledge",
     "correct_answer": "D"
   },
@@ -853,6 +909,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Rajasthan GK",
     "correct_answer": "D"
   },
@@ -868,6 +925,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Art & Culture",
     "correct_answer": "D"
   },
@@ -883,6 +941,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Rajasthan GK",
     "correct_answer": "D"
   },
@@ -898,6 +957,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "General Knowledge",
     "correct_answer": "A"
   },
@@ -913,6 +973,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Hindi Grammar",
     "correct_answer": "B"
   },
@@ -928,6 +989,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Hindi Grammar",
     "correct_answer": "C"
   },
@@ -943,6 +1005,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Hindi Grammar",
     "correct_answer": "D"
   },
@@ -958,6 +1021,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Hindi Grammar",
     "correct_answer": "A"
   },
@@ -1014,6 +1078,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Hindi Grammar",
     "correct_answer": "B"
   },
@@ -1029,6 +1094,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Hindi Grammar",
     "correct_answer": "A"
   },
@@ -1044,6 +1110,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Hindi Grammar",
     "correct_answer": "D"
   },
@@ -1059,6 +1126,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Hindi Grammar",
     "correct_answer": "B"
   },
@@ -1074,6 +1142,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Hindi Grammar",
     "correct_answer": "C"
   },
@@ -1089,6 +1158,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Hindi Grammar",
     "correct_answer": "C"
   },
@@ -1104,6 +1174,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Hindi Grammar",
     "correct_answer": "A"
   },
@@ -1119,6 +1190,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Hindi Grammar",
     "correct_answer": "C"
   },
@@ -1134,6 +1206,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Hindi Grammar",
     "correct_answer": "C"
   },
@@ -1149,6 +1222,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Hindi Grammar",
     "correct_answer": "B"
   },
@@ -1164,6 +1238,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Hindi Grammar",
     "correct_answer": "D"
   },
@@ -1179,6 +1254,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Hindi Grammar",
     "correct_answer": "D"
   },
@@ -1194,6 +1270,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Hindi Grammar",
     "correct_answer": "D"
   },
@@ -1209,6 +1286,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Hindi Grammar",
     "correct_answer": "C"
   },
@@ -1224,6 +1302,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Hindi Grammar",
     "correct_answer": "A"
   },
@@ -1239,6 +1318,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Hindi Grammar",
     "correct_answer": "B"
   },
@@ -1254,6 +1334,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "English Language",
     "correct_answer": "D"
   },
@@ -1269,6 +1350,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Hindi Vocabulary",
     "correct_answer": "C"
   },
@@ -1284,6 +1366,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Hindi Translation",
     "correct_answer": "C"
   },
@@ -1299,6 +1382,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "English Language",
     "correct_answer": "A"
   },
@@ -1314,6 +1398,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "English Language",
     "correct_answer": "B"
   },
@@ -1329,6 +1414,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "English Language",
     "correct_answer": "C"
   },
@@ -1344,6 +1430,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "English Language",
     "correct_answer": "B"
   },
@@ -1359,6 +1446,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "English Language",
     "correct_answer": "B"
   },
@@ -1374,6 +1462,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "English Grammar",
     "correct_answer": "A"
   },
@@ -1389,6 +1478,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "General Knowledge",
     "correct_answer": "C"
   },
@@ -1404,6 +1494,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "General Knowledge",
     "correct_answer": "B"
   },
@@ -1419,6 +1510,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "English Language",
     "correct_answer": "C"
   },
@@ -1434,6 +1526,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "English Language",
     "correct_answer": "A"
   },
@@ -1449,6 +1542,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "English Language",
     "correct_answer": "D"
   },
@@ -1464,6 +1558,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "English Language",
     "correct_answer": "D"
   },
@@ -1479,6 +1574,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Rajasthan GK",
     "correct_answer": "A"
   },
@@ -1494,6 +1590,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "General Knowledge",
     "correct_answer": "C"
   },
@@ -1509,6 +1606,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Rajasthan GK",
     "correct_answer": "B"
   },
@@ -1524,6 +1622,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "History",
     "correct_answer": "B"
   },
@@ -1539,6 +1638,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Mathematics",
     "correct_answer": "A"
   },
@@ -1554,6 +1654,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Rajasthan GK",
     "correct_answer": "A"
   },
@@ -1569,6 +1670,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Mathematics",
     "correct_answer": "B"
   },
@@ -1584,6 +1686,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Rajasthan GK",
     "correct_answer": "A"
   },
@@ -1599,6 +1702,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Rajasthan GK",
     "correct_answer": "D"
   },
@@ -1614,6 +1718,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "General Knowledge",
     "correct_answer": "D"
   },
@@ -1629,6 +1734,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Rajasthan GK",
     "correct_answer": "B"
   },
@@ -1644,6 +1750,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Computer Science",
     "correct_answer": "D"
   },
@@ -1659,6 +1766,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Rajasthan GK",
     "correct_answer": "B"
   },
@@ -1674,6 +1782,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "General Knowledge",
     "correct_answer": "D"
   },
@@ -1689,6 +1798,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "General Knowledge",
     "correct_answer": "D"
   },
@@ -1704,6 +1814,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "General Knowledge",
     "correct_answer": "C"
   },
@@ -1719,6 +1830,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "General Knowledge",
     "correct_answer": "A"
   },
@@ -1734,6 +1846,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Mathematics",
     "correct_answer": "B"
   },
@@ -1749,6 +1862,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Rajasthan GK",
     "correct_answer": "A"
   },
@@ -1764,6 +1878,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Mathematics",
     "correct_answer": "B"
   },
@@ -1779,6 +1894,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "General Knowledge",
     "correct_answer": "A"
   },
@@ -1794,6 +1910,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Mathematics",
     "correct_answer": "C"
   },
@@ -1809,6 +1926,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Indian Polity",
     "correct_answer": "B"
   },
@@ -1824,6 +1942,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "General Knowledge",
     "correct_answer": "C"
   },
@@ -1839,6 +1958,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
+    "exam_type": "4th Grade",
     "question_topic": "Mathematics",
     "correct_answer": "C"
   }
