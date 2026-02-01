@@ -11,8 +11,8 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
-    "question_topic": "Rajasthan GK",
+    "verified": true,
+    "question_topic": ["Rajasthan GK", "Defence", "Current Affairs", "Army Drill"],
     "correct_answer": "C"
   },
   {
@@ -27,7 +27,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "History",
     "correct_answer": "A"
   },
@@ -43,7 +43,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Rajasthan GK",
     "correct_answer": "A"
   },
@@ -59,7 +59,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Rajasthan GK",
     "correct_answer": "D"
   },
@@ -75,13 +75,13 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "General Knowledge",
     "correct_answer": "A"
   },
   {
     "question_number": 6,
-    "question_text": "If 20% of (A  B) = 50% of (A  B) , then A : B is :",
+    "question_text": "If 20% of (A + B) = 50% of (A - B) , then A : B is :",
     "options": {
       "A": "3 : 2",
       "B": "5 : 2",
@@ -91,7 +91,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "General Knowledge",
     "correct_answer": "D"
   },
@@ -107,7 +107,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "General Knowledge",
     "correct_answer": "C"
   },
@@ -123,7 +123,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Mathematics",
     "correct_answer": "B"
   },
@@ -139,23 +139,23 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Indian Polity",
     "correct_answer": "C"
   },
   {
     "question_number": 10,
-    "question_text": "The  difference  between  compound  interest  and simple  interest  on  a  certain  sum  of  money  for 3 years at 8% per annum is ` 616. Find the sum.",
+    "question_text": "The  difference  between  compound  interest  and simple  interest  on  a  certain  sum  of  money  for 3 years at 8% per annum is ₹ 616. Find the sum.",
     "options": {
-      "A": "` 24,000",
-      "B": "` 31,250",
-      "C": "` 62,500",
-      "D": "` 22,500",
+      "A": "₹ 24,000",
+      "B": "₹ 31,250",
+      "C": "₹ 62,500",
+      "D": "₹ 22,500",
       "E": "Question not attempted"
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Mathematics",
     "correct_answer": "B"
   },
@@ -171,7 +171,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Art & Culture",
     "correct_answer": "B"
   },
@@ -187,7 +187,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Rajasthan GK",
     "correct_answer": "A"
   },
@@ -205,7 +205,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Data Interpretation",
     "correct_answer": "C"
   },
@@ -221,7 +221,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Mathematics",
     "correct_answer": "D"
   },
@@ -237,7 +237,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Indian Polity",
     "correct_answer": "C"
   },
@@ -253,23 +253,23 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Computer Science",
     "correct_answer": "A"
   },
   {
     "question_number": 17,
-    "question_text": "On simple interest a certain sum becomes ` 50,806 in 3 years and ` 59,210 in 5 years at the same rate of interest. The sum is :",
+    "question_text": "On simple interest a certain sum becomes ₹ 50,806 in 3 years and ₹ 59,210 in 5 years at the same rate of interest. The sum is :",
     "options": {
-      "A": "` 38,200",
-      "B": "` 38,360",
-      "C": "` 39,400",
-      "D": "` 38,100",
+      "A": "₹ 38,200",
+      "B": "₹ 38,360",
+      "C": "₹ 39,400",
+      "D": "₹ 38,100",
       "E": "Question not attempted"
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Mathematics",
     "correct_answer": "A"
   },
@@ -285,7 +285,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "General Knowledge",
     "correct_answer": "A"
   },
@@ -301,7 +301,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Rajasthan GK",
     "correct_answer": "C"
   },
@@ -317,7 +317,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Rajasthan GK",
     "correct_answer": "C"
   },
@@ -333,7 +333,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Rajasthan GK",
     "correct_answer": "B"
   },
@@ -349,7 +349,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Geography",
     "correct_answer": "C"
   },
@@ -365,7 +365,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Art & Culture",
     "correct_answer": "B"
   },
@@ -381,7 +381,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Rajasthan GK",
     "correct_answer": "D"
   },
@@ -397,7 +397,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Geography",
     "correct_answer": "B"
   },
@@ -413,7 +413,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Rajasthan GK",
     "correct_answer": "B"
   },
@@ -429,25 +429,66 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Science",
     "correct_answer": "A"
   },
   {
     "question_number": 28,
-    "question_text": "Match the physical properties given in List-1 to the metals that exhibit those properties given in List-2 : | List-1 (Physical Properties)   | List-1 (Physical Properties)   | List-2 (Metals)   | List-2 (Metals)   | |--------------------------------|--------------------------------|-------------------|-------------------| | (a)                            | Liquid at room temperature     | (i)               | Sodium (Na)       | | (b)                            | Can be easily cut with a knife | (ii)              | Mercury (Hg)      | | (c)                            | Excellent conductor of heat    | (iii)             | Lead (Pb)         | | (d)                            | Poor conductor of heat         | (iv)              | Silver (Ag)       | Choose the correct answer from the options given below :",
+    "exam_name": "4th Grade Exam 2025 - DS22",
+    "verified": true,
+    "question_topic": "General Knowledge",
+    "question_type": "Match_List1_With_L2",
+    "question_text": "Match the physical properties given in List-1 to the metals that exhibit those properties given in List-2:",
+    "description": {
+      "list1_title": "List-1 (Physical Properties)",
+      "list2_title": "List-2 (Metals)",
+      "list1_items": [
+        {
+          "id": "a",
+          "text": "Liquid at room temperature"
+        },
+        {
+          "id": "b",
+          "text": "Can be easily cut with a knife"
+        },
+        {
+          "id": "c",
+          "text": "Excellent conductor of heat"
+        },
+        {
+          "id": "d",
+          "text": "Poor conductor of heat"
+        }
+      ],
+      "list2_items": [
+        {
+          "id": "i",
+          "text": "Sodium (Na)"
+        },
+        {
+          "id": "ii",
+          "text": "Mercury (Hg)"
+        },
+        {
+          "id": "iii",
+          "text": "Lead (Pb)"
+        },
+        {
+          "id": "iv",
+          "text": "Silver (Ag)"
+        }
+      ]
+    },
     "options": {
-      "A": "(a)-(ii), (b)-(i), (c)-(iii), (d)-(iv)",
-      "B": "(a)-(i), (b)-(iii), (c)-(ii), (d)-(iv)",
-      "C": "(a)-(iii), (b)-(i), (c)-(ii), (d)-(iv)",
-      "D": "(a)-(ii), (b)-(i), (c)-(iv), (d)-(iii)",
+      "A": "a-ii, b-i, c-iii, d-iv",
+      "B": "a-i, b-iii, c-ii, d-iv",
+      "C": "a-iii, b-i, c-ii, d-iv",
+      "D": "a-ii, b-i, c-iv, d-iii",
       "E": "Question not attempted"
     },
-    "auto_assigned": false,
-    "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
-    "question_topic": "General Knowledge",
-    "correct_answer": "D"
+    "correct_answer": "D",
+    "auto_assigned": false
   },
   {
     "question_number": 29,
@@ -461,7 +502,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Rajasthan GK",
     "correct_answer": "A"
   },
@@ -477,7 +518,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Mathematics",
     "correct_answer": "C"
   },
@@ -493,7 +534,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Rajasthan GK",
     "correct_answer": "D"
   },
@@ -509,7 +550,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Rajasthan GK",
     "correct_answer": "B"
   },
@@ -525,7 +566,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Rajasthan GK",
     "correct_answer": "C"
   },
@@ -541,7 +582,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Art & Culture",
     "correct_answer": "C"
   },
@@ -557,7 +598,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Chemistry",
     "correct_answer": "C"
   },
@@ -573,7 +614,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Geography",
     "correct_answer": "B"
   },
@@ -589,7 +630,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Mathematics",
     "correct_answer": "B"
   },
@@ -605,13 +646,13 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Mathematics",
     "correct_answer": "D"
   },
   {
     "question_number": 39,
-    "question_text": "According  to  the  Rajasthan  State  Budget  2025,  a Gharial Rearing  Centre, will be established at \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ in Rajasthan.",
+    "question_text": "According  to  the  Rajasthan  State  Budget  2025,  a Gharial Rearing  Centre, will be established at ______ in Rajasthan.",
     "options": {
       "A": "Kumbhalgarh",
       "B": "Kota",
@@ -621,7 +662,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Rajasthan GK",
     "correct_answer": "D"
   },
@@ -637,7 +678,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "General Knowledge",
     "correct_answer": "A"
   },
@@ -653,7 +694,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "General Knowledge",
     "correct_answer": "B"
   },
@@ -669,7 +710,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "General Knowledge",
     "correct_answer": "B"
   },
@@ -685,7 +726,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "General Knowledge",
     "correct_answer": "A"
   },
@@ -701,7 +742,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Art & Culture",
     "correct_answer": "B"
   },
@@ -717,7 +758,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Mathematics",
     "correct_answer": "A"
   },
@@ -733,7 +774,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "General Knowledge",
     "correct_answer": "A"
   },
@@ -749,7 +790,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Indian Polity",
     "correct_answer": "A"
   },
@@ -758,14 +799,14 @@ export const DS22 = [
     "question_text": "A  cistern  is  normally  filled  in  9  hours  but  takes 6 hours more to fill because of a leak in its bottom. If  the  cistern  is  full,  the  leak  will  empty  it  in  how many hours ?",
     "options": {
       "A": "23",
-      "B": "1 22 2",
-      "C": "1 24 2",
+      "B": "22 ½",
+      "C": "24 ½",
       "D": "20",
       "E": "Question not attempted"
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "General Knowledge",
     "correct_answer": "B"
   },
@@ -781,7 +822,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Indian Polity",
     "correct_answer": "B"
   },
@@ -797,7 +838,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Rajasthan GK",
     "correct_answer": "B"
   },
@@ -813,7 +854,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Rajasthan GK",
     "correct_answer": "C"
   },
@@ -829,7 +870,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Geography",
     "correct_answer": "B"
   },
@@ -845,7 +886,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "General Knowledge",
     "correct_answer": "A"
   },
@@ -861,7 +902,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Rajasthan GK",
     "correct_answer": "A"
   },
@@ -877,7 +918,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "General Knowledge",
     "correct_answer": "A"
   },
@@ -893,7 +934,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "General Knowledge",
     "correct_answer": "D"
   },
@@ -909,7 +950,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Rajasthan GK",
     "correct_answer": "D"
   },
@@ -925,7 +966,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Art & Culture",
     "correct_answer": "D"
   },
@@ -941,7 +982,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Rajasthan GK",
     "correct_answer": "D"
   },
@@ -957,13 +998,13 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "General Knowledge",
     "correct_answer": "A"
   },
   {
     "question_number": 61,
-    "question_text": "निम्नलिखित शब्दों में से शुद्ध शब्दों का चयन कीजिए: (a) मुहूर्त (b) दीक्षांत (c) शुभचिंतक (d) पैतृक (e) स्नेह",
+    "question_text": "निम्नलिखित शब्दों में से शुद्ध शब्दों का चयन कीजिए: (a) मुहूर्त (b) विवाहित (c) सूर्पनखा (d) पैतृक (e) स्वस्थ",
     "options": {
       "A": "केवल (a) और (e)",
       "B": "केवल (c) और (d)",
@@ -973,7 +1014,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Hindi Grammar",
     "correct_answer": "B"
   },
@@ -989,7 +1030,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Hindi Grammar",
     "correct_answer": "C"
   },
@@ -1005,7 +1046,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Hindi Grammar",
     "correct_answer": "D"
   },
@@ -1021,25 +1062,27 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Hindi Grammar",
     "correct_answer": "A"
   },
   {
     "question_number": 65,
     "question_type": "Match_List1_With_L2",
-    "question_text": "सूची-I में किए गए तत्सम शब्दों का मिलान सूची-II में दिए गए उनके समानार्थक तद्भव शब्दों से कीजिए:",
+    "question_text": "सूची-I में दिए गए तत्सम शब्दों का मिलान सूची-II में दिए गए उनके समानार्थक तद्भव शब्दों से कीजिए:",
+
     "description": {
       "list1_title": "सूची-I (तत्सम)",
       "list2_title": "सूची-II (तद्भव)",
+
       "list1_items": [
         {
           "id": "a",
-          "text": "रूरु"
+          "text": "गोधूम"
         },
         {
           "id": "b",
-          "text": "नि"
+          "text": "नव"
         },
         {
           "id": "c",
@@ -1050,10 +1093,11 @@ export const DS22 = [
           "text": "सूचि"
         }
       ],
+
       "list2_items": [
         {
           "id": "i",
-          "text": "नौ"
+          "text": "नो"
         },
         {
           "id": "ii",
@@ -1061,7 +1105,7 @@ export const DS22 = [
         },
         {
           "id": "iii",
-          "text": "रेहूँ"
+          "text": "गेहूँ"
         },
         {
           "id": "iv",
@@ -1069,17 +1113,20 @@ export const DS22 = [
         }
       ]
     },
+
     "options": {
-      "A": "a-i, b-ii, c-iii, d-iv",
-      "B": "a-ii, b-i, c-iv, d-iii",
-      "C": "a-iii, b-iv, c-i, d-ii",
-      "D": "a-iv, b-iii, c-ii, d-i",
+      "A": "(a)-(iii), (b)-(iv), (c)-(i), (d)-(ii)",
+      "B": "(a)-(iii), (b)-(i), (c)-(ii), (d)-(iv)",
+      "C": "(a)-(ii), (b)-(iii), (c)-(iv), (d)-(i)",
+      "D": "(a)-(iv), (b)-(ii), (c)-(i), (d)-(iii)",
       "E": "अनुत्तरित प्रश्न"
     },
+
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Hindi Grammar",
+
     "correct_answer": "B"
   },
   {
@@ -1094,7 +1141,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Hindi Grammar",
     "correct_answer": "A"
   },
@@ -1103,30 +1150,31 @@ export const DS22 = [
     "question_text": "'तूती बोलना' मुहावरे का सही अर्थ है:",
     "options": {
       "A": "अड़चन डालना",
-      "B": "तन करना",
+      "B": "तंग करना",
       "C": "बुरी राय देना",
-      "D": "दाग जमाना",
+      "D": "धाक जमाना",
       "E": "अनुत्तरित प्रश्न"
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Hindi Grammar",
     "correct_answer": "D"
   },
+
   {
     "question_number": 68,
     "question_text": "निम्नलिखित वाक्यों में से कौन-सा वाक्य आसन्न भूतकाल का उदाहरण है?",
     "options": {
       "A": "श्री अटल बिहारी वाजपेयी प्रधानमंत्री थे।",
-      "B": "चाँद अभी-अभी निकल है।",
+      "B": "चाँद अभी-अभी निकला है।",
       "C": "मनोज कल पुस्तकालय गया था।",
       "D": "बस तीव्र गति से दौड़ रही थी।",
       "E": "अनुत्तरित प्रश्न"
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Hindi Grammar",
     "correct_answer": "B"
   },
@@ -1134,31 +1182,31 @@ export const DS22 = [
     "question_number": 69,
     "question_text": "'अंधे के हाथ बटेर लगना' लोकोक्ति का अर्थ है:",
     "options": {
-      "A": "अंधे व्यक्ति को बटेर पक्षी का kennen जाना।",
+      "A": "अंधे व्यक्ति को बटेर पक्षी का मिल जाना।",
       "B": "अंधे व्यक्ति से बड़ा नुकसान हो जाना।",
-      "C": "अयोग्य व्यक्ति को अच्छा काम मिल जाना।",
+      "C": "अयोग्य व्यक्ति को बिना प्रयास के अच्छा फल प्राप्त हो जाना।",
       "D": "अंधे व्यक्ति को प्रशंसा मिलना।",
       "E": "अनुत्तरित प्रश्न"
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Hindi Grammar",
     "correct_answer": "C"
   },
   {
     "question_number": 70,
-    "question_text": "'जगन्नाथ' का संधि-viच्छेद होगा:",
+    "question_text": "'जगन्नाथ' का संधि-विच्छेद होगा:",
     "options": {
-      "A": "जगत + नाथ",
-      "B": "जर + अनाथ",
-      "C": "जगत + नाथ",
-      "D": "जर + नाथ",
+      "A": "जगन  + नाथ",
+      "B": "जग + अनाथ",
+      "C": "जगत् + नाथ",
+      "D": "जग + नाथ",
       "E": "अनुत्तरित प्रश्न"
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Hindi Grammar",
     "correct_answer": "C"
   },
@@ -1167,15 +1215,15 @@ export const DS22 = [
     "question_text": "'ADVERTISEMENT' शब्द की हिन्दी है:",
     "options": {
       "A": "विज्ञापन",
-      "B": "किताब",
-      "C": "उद्घोष",
+      "B": "निविदा",
+      "C": "उद्घोषणा",
       "D": "पृष्ठांकन",
       "E": "अनुत्तरित प्रश्न"
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
-    "question_topic": "Hindi Grammar",
+    "verified": true,
+    "question_topic": "Hindi Vocabulary",
     "correct_answer": "A"
   },
   {
@@ -1183,33 +1231,34 @@ export const DS22 = [
     "question_text": "निम्नलिखित में से शुद्ध वाक्य का चयन कीजिए:",
     "options": {
       "A": "मुझे संगीत सुननी पसंद है।",
-      "B": "मैने एक घंटा उनकी प्रतीक्षा की।",
-      "C": "काशी नगरी भारतीय संस्कृति का केन्द्र रही है।",
-      "D": "मैं स्नान की कसरत कर रहा हूँ।",
+      "B": "मैने एक वर्ष तक उनकी प्रतीक्षा देखी",
+      "C": "काशी नगरी भारतीय संस्कृति का केंद्र रही है।",
+      "D": "मैं गाने की कसरत कर रहा हूँ।",
       "E": "अनुत्तरित प्रश्न"
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Hindi Grammar",
     "correct_answer": "C"
   },
   {
     "question_number": 73,
-    "question_text": "'श्रीमद' शब्द का विलोम शब्द होगा:",
+    "question_text": "'श्रीगणेश' शब्द का विलोम शब्द होगा:",
     "options": {
       "A": "मध्यश्री",
-      "B": "प्रारंभश्री",
-      "C": "अन्तश्री",
-      "D": "पराश्री",
+      "B": "प्रारम्भश्री",
+      "C": "इति श्री",
+      "D": "राधाश्री",
       "E": "अनुत्तरित प्रश्न"
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Hindi Grammar",
     "correct_answer": "C"
-  },
+  }
+  ,
   {
     "question_number": 74,
     "question_text": "निम्नलिखित वाक्यों में से किसमें अकर्मक क्रिया का प्रयोग हुआ है?",
@@ -1222,7 +1271,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Hindi Grammar",
     "correct_answer": "B"
   },
@@ -1231,14 +1280,14 @@ export const DS22 = [
     "question_text": "दरवाज़े पर कौन है? उपरोक्त वाक्य में सर्वनाम का कौन-सा भेद है?",
     "options": {
       "A": "संबंधवाचक सर्वनाम",
-      "B": "प्रश्नवाचक सर्वनाम",
+      "B": "परिमाणवाचक सर्वनाम",
       "C": "निश्चयवाचक सर्वनाम",
       "D": "प्रश्नवाचक सर्वनाम",
       "E": "अनुत्तरित प्रश्न"
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Hindi Grammar",
     "correct_answer": "D"
   },
@@ -1254,42 +1303,43 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Hindi Grammar",
     "correct_answer": "D"
   },
   {
     "question_number": 77,
-    "question_text": "निम्नलिखित में से कौन-सा शब्द विदेशज नहीं है?",
+    "question_text": "निम्नलिखित शब्दों में से कौन-सा शब्द विदेशज नहीं है?",
     "options": {
       "A": "आलपीन",
-      "B": "कटकट",
-      "C": "अकल",
-      "D": "लोता",
+      "B": "टिकट",
+      "C": "अक्ल",
+      "D": "लोटा",
       "E": "अनुत्तरित प्रश्न"
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Hindi Grammar",
     "correct_answer": "D"
   },
   {
     "question_number": 78,
-    "question_text": "निम्नलिखित में से कौन-सी व्यंजनसंधि का उदाहरण नहीं है?",
+    "question_text": "निम्नलिखित में से कौन-सी व्यक्तिवाचक संज्ञा नहीं है?",
     "options": {
-      "A": "महर्षि",
-      "B": "कदम",
-      "C": "नयन",
+      "A": "गंगा",
+      "B": "हिमालय",
+      "C": "धनवान",
       "D": "रामचरितमानस",
       "E": "अनुत्तरित प्रश्न"
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Hindi Grammar",
     "correct_answer": "C"
   },
+
   {
     "question_number": 79,
     "question_text": "निम्नलिखित में से कौन-सा वाक्य विशेषण का उदाहरण नहीं है?",
@@ -1302,23 +1352,23 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Hindi Grammar",
     "correct_answer": "A"
   },
   {
     "question_number": 80,
-    "question_text": "निम्नलिखित में से रूढ़ि शब्द का उदाहरण है:",
+    "question_text": "निम्नलिखित में से गुण संधि का उदाहरण है:",
     "options": {
       "A": "यद्यपि",
       "B": "महोत्सव",
-      "C": "किंतु",
+      "C": "दिग्गज",
       "D": "अभिष्ट",
       "E": "अनुत्तरित प्रश्न"
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Hindi Grammar",
     "correct_answer": "B"
   },
@@ -1334,7 +1384,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "English Language",
     "correct_answer": "D"
   },
@@ -1350,7 +1400,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Hindi Vocabulary",
     "correct_answer": "C"
   },
@@ -1366,7 +1416,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Hindi Translation",
     "correct_answer": "C"
   },
@@ -1382,13 +1432,13 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "English Language",
     "correct_answer": "A"
   },
   {
     "question_number": 85,
-    "question_text": "Choose the most appropriate English translation of the given sentence from the options provided :",
+    "question_text": "Choose the most appropriate English translation of the given sentence from the options provided : “मेरे विचार से तुम्हें यहाँ जल्द-से-जल्द आ जाना चाहिए।”",
     "options": {
       "A": "I think so you come quickly to here.",
       "B": "I think that you should come here as soon as possible.",
@@ -1398,13 +1448,13 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "English Language",
     "correct_answer": "B"
   },
   {
     "question_number": 86,
-    "question_text": "Fill  in  the  blanks  in  the  given  sentence  by choosing the most appropriate words from the options provided : You  may  play  with  my  pet  \\_\\_\\_\\_\\_\\_\\_,  but  my \\_\\_\\_\\_\\_\\_\\_boy, do not cause any harm to it.",
+    "question_text": "Fill  in  the  blanks  in  the  given  sentence  by choosing the most appropriate words from the options provided : You  may  play  with  my  pet  _________,  but  my _________boy, do not cause any harm to it.",
     "options": {
       "A": "dare, deer",
       "B": "dire, dear",
@@ -1414,13 +1464,13 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "English Language",
     "correct_answer": "C"
   },
   {
     "question_number": 87,
-    "question_text": "Fill in the blank in the sentence given below by choosing the most appropriate answer from the options provided : \\_\\_\\_\\_\\_\\_\\_ adults know how to conduct themselves in public places.",
+    "question_text": "Fill in the blank in the sentence given below by choosing the most appropriate answer from the options provided : ____________ adults know how to conduct themselves in public places.",
     "options": {
       "A": "Much",
       "B": "Many",
@@ -1430,7 +1480,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "English Language",
     "correct_answer": "B"
   },
@@ -1446,7 +1496,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "English Language",
     "correct_answer": "B"
   },
@@ -1462,13 +1512,13 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "English Grammar",
     "correct_answer": "A"
   },
   {
     "question_number": 90,
-    "question_text": "Fill in the blank by choosing the correct option : I saw Rohit \\_\\_\\_\\_\\_\\_\\_ a concert last Saturday.",
+    "question_text": "Fill in the blank by choosing the correct option : I saw Rohit _______________ a concert last Saturday.",
     "options": {
       "A": "on",
       "B": "off",
@@ -1478,13 +1528,13 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "General Knowledge",
     "correct_answer": "C"
   },
   {
     "question_number": 91,
-    "question_text": "Fill in the blank by choosing the most appropriate answer  from  the options given below : He hinted that he \\_\\_\\_\\_\\_\\_\\_ some pocket money.",
+    "question_text": "Fill in the blank by choosing the most appropriate answer  from  the options given below : He hinted that he __________ some pocket money.",
     "options": {
       "A": "want",
       "B": "wanted",
@@ -1494,7 +1544,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "General Knowledge",
     "correct_answer": "B"
   },
@@ -1510,7 +1560,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "English Language",
     "correct_answer": "C"
   },
@@ -1526,7 +1576,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "English Language",
     "correct_answer": "A"
   },
@@ -1542,13 +1592,13 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "English Language",
     "correct_answer": "D"
   },
   {
     "question_number": 95,
-    "question_text": "For the given sentence, choose the most appropriate answer from the options provided : Air-pollution is \\_\\_\\_\\_\\_\\_\\_ serious problem  in Delhi these days.",
+    "question_text": "For the given sentence, choose the most appropriate answer from the options provided : Air-pollution is ___________ serious problem  in Delhi these days.",
     "options": {
       "A": "the",
       "B": "an",
@@ -1558,7 +1608,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "English Language",
     "correct_answer": "D"
   },
@@ -1574,7 +1624,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Rajasthan GK",
     "correct_answer": "A"
   },
@@ -1590,7 +1640,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "General Knowledge",
     "correct_answer": "C"
   },
@@ -1606,7 +1656,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Rajasthan GK",
     "correct_answer": "B"
   },
@@ -1622,13 +1672,13 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "History",
     "correct_answer": "B"
   },
   {
     "question_number": 100,
-    "question_text": "Saurav  bought  two  items  for ` 680  and ` 820 respectively.  He  sold  the  first  item  with  5%  loss and  the  second  item  with  15%  profit.  Find  his profit or  loss percentage in the whole transaction. (correct to 2 decimal places)",
+    "question_text": "Saurav  bought  two  items  for ₹ 680  and ₹ 820 respectively.  He  sold  the  first  item  with  5%  loss and  the  second  item  with  15%  profit.  Find  his profit or  loss percentage in the whole transaction. (correct to 2 decimal places)",
     "options": {
       "A": "profit, 5.93%",
       "B": "profit, 5.86%",
@@ -1638,7 +1688,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Mathematics",
     "correct_answer": "A"
   },
@@ -1654,23 +1704,23 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Rajasthan GK",
     "correct_answer": "A"
   },
   {
     "question_number": 102,
-    "question_text": "A, B and C entered into a partnership by investing ` 36,000, ` 40,000 and ` 48,000 respectively. At the end of the year, what is the difference between the shares of A and C out of the total profit of ` 62,000?",
+    "question_text": "A, B and C entered into a partnership by investing ₹ 36,000, ₹ 40,000 and ₹ 48,000 respectively. At the end of the year, what is the difference between the shares of A and C out of the total profit of ₹ 62,000?",
     "options": {
-      "A": "` 5,000",
-      "B": "` 6,000",
-      "C": "` 6,280",
-      "D": "` 4,000",
+      "A": "₹ 5,000",
+      "B": "₹ 6,000",
+      "C": "₹ 6,280",
+      "D": "₹ 4,000",
       "E": "Question not attempted"
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Mathematics",
     "correct_answer": "B"
   },
@@ -1686,7 +1736,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Rajasthan GK",
     "correct_answer": "A"
   },
@@ -1702,7 +1752,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Rajasthan GK",
     "correct_answer": "D"
   },
@@ -1718,7 +1768,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "General Knowledge",
     "correct_answer": "D"
   },
@@ -1734,7 +1784,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Rajasthan GK",
     "correct_answer": "B"
   },
@@ -1750,7 +1800,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Computer Science",
     "correct_answer": "D"
   },
@@ -1766,7 +1816,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Rajasthan GK",
     "correct_answer": "B"
   },
@@ -1782,7 +1832,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "General Knowledge",
     "correct_answer": "D"
   },
@@ -1798,7 +1848,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "General Knowledge",
     "correct_answer": "D"
   },
@@ -1814,7 +1864,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "General Knowledge",
     "correct_answer": "C"
   },
@@ -1830,13 +1880,13 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "General Knowledge",
     "correct_answer": "A"
   },
   {
     "question_number": 113,
-    "question_text": "The monthly salaries of Ram, Ajay and Aslam are in the ratio 1 1 1 : : 15 10 6 . If their salaries are increased by 10%, 10% and 20% respectively, then their salaries will be in the ratio :",
+    "question_text": "The monthly salaries of Ram, Ajay and Aslam are in the ratio 1/15: 1/10: 1/6. If their salaries are increased by 10%, 10% and 20% respectively, then their salaries will be in the ratio :",
     "options": {
       "A": "15 : 10 : 48",
       "B": "22 : 33 : 60",
@@ -1846,7 +1896,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Mathematics",
     "correct_answer": "B"
   },
@@ -1862,7 +1912,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Rajasthan GK",
     "correct_answer": "A"
   },
@@ -1878,7 +1928,7 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Mathematics",
     "correct_answer": "B"
   },
@@ -1894,23 +1944,23 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "General Knowledge",
     "correct_answer": "A"
   },
   {
     "question_number": 117,
-    "question_text": "Find  the  compound  interest  on ` 2,50,000 for 15  months  at  12%  per  annum  compounded  half yearly.",
+    "question_text": "Find  the  compound  interest  on ₹ 2,50,000 for 15  months  at  12%  per  annum  compounded  half yearly.",
     "options": {
-      "A": "` 39,300",
-      "B": "` 46,802",
-      "C": "` 39,327",
-      "D": "` 38,400",
+      "A": "₹ 39,300",
+      "B": "₹ 46,802",
+      "C": "₹ 39,327",
+      "D": "₹ 38,400",
       "E": "Question not attempted"
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Mathematics",
     "correct_answer": "C"
   },
@@ -1926,15 +1976,15 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Indian Polity",
     "correct_answer": "B"
   },
   {
     "question_number": 119,
-    "question_text": "A  boat  covers  a  certain  distance  downstream  in 1  hour,  while  it  comes  back  in 1 1 2 hours.  If  the speed  of  the  stream  is  7  km/h,  then  what  is  the speed of the boat in still water in km/h ?",
+    "question_text": "A  boat  covers  a  certain  distance  downstream  in 1  hour,  while  it  comes  back  in 1½ hours.  If  the speed  of  the  stream  is  7  km/h,  then  what  is  the speed of the boat in still water in km/h ?",
     "options": {
-      "A": "1 28 2",
+      "A": "28½",
       "B": "24",
       "C": "35",
       "D": "21",
@@ -1942,23 +1992,23 @@ export const DS22 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "General Knowledge",
     "correct_answer": "C"
   },
   {
     "question_number": 120,
-    "question_text": "A bought an item for ` 800  and  sold  it  with  10% profit  to  B.  B  sold  it  with  15%  profit  to  C.  How much C paid for the item ?",
+    "question_text": "A bought an item for ₹ 800  and  sold  it  with  10% profit  to  B.  B  sold  it  with  15%  profit  to  C.  How much C paid for the item ?",
     "options": {
-      "A": "` 976",
-      "B": "` 1,000",
-      "C": "` 1,012",
-      "D": "` 920",
+      "A": "₹ 976",
+      "B": "₹ 1,000",
+      "C": "₹ 1,012",
+      "D": "₹ 920",
       "E": "Question not attempted"
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DS22",
-    "exam_type": "4th Grade",
+    "verified": true,
     "question_topic": "Mathematics",
     "correct_answer": "C"
   }
