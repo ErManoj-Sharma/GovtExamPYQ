@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Navbar from "../Components/NavBar";
 import Footer from "../Components/Footer";
 import WindowText from "../Components/WindowText";
@@ -10,14 +10,25 @@ import ScrollToTop from "../Components/ScrollToTop";
 import { questions } from "../Constants/Questions";
 import Chip from "../Components/Chip";
 
-// Extract unique exam types
+/* -------------------- helpers -------------------- */
+
+// Extract year from exam_name (e.g. 2023, 2025)
+function extractYear(examName) {
+    const match = examName.match(/\b(19|20)\d{2}\b/);
+    return match ? match[0] : null;
+}
+
+// Unique exam types
 const examTypes = ["All Exams", ...new Set(questions.map(q => q.exam_type))];
+
+/* -------------------- component -------------------- */
 
 function Quiz() {
     const [selectedExamTypes, setSelectedExamTypes] = useState(["All Exams"]);
     const [searchQuery, setSearchQuery] = useState("");
+    const [selectedYear, setSelectedYear] = useState("all");
 
-    // Handle chip selection
+    /* -------- exam chip toggle -------- */
     const handleExamTypeToggle = (type) => {
         if (type === "All Exams") {
             setSelectedExamTypes(["All Exams"]);
@@ -40,12 +51,35 @@ function Quiz() {
         setSelectedExamTypes(updated);
     };
 
-    // Handle search input
+    /* -------- search handler -------- */
     const handleSearch = (query) => {
         setSearchQuery(query);
     };
 
-    // ✅ Final filtered questions (derived state)
+    /* -------- AVAILABLE YEARS (BASED ON SELECTED CHIPS) -------- */
+    const availableYears = Array.from(
+        new Set(
+            questions
+                .filter(q =>
+                    selectedExamTypes.includes("All Exams") ||
+                    selectedExamTypes.includes(q.exam_type)
+                )
+                .map(q => extractYear(q.exam_name))
+                .filter(Boolean)
+        )
+    ).sort((a, b) => b - a);
+
+    /* -------- auto-reset invalid year -------- */
+    useEffect(() => {
+        if (
+            selectedYear !== "all" &&
+            !availableYears.includes(selectedYear)
+        ) {
+            setSelectedYear("all");
+        }
+    }, [availableYears, selectedYear]);
+
+    /* -------- FINAL FILTERED QUESTIONS -------- */
     const filteredQuestions = questions.filter(q => {
         // Exam type filter
         const examMatch =
@@ -53,6 +87,12 @@ function Quiz() {
             selectedExamTypes.includes(q.exam_type);
 
         if (!examMatch) return false;
+
+        // Year filter
+        if (selectedYear !== "all") {
+            const year = extractYear(q.exam_name);
+            if (year !== selectedYear) return false;
+        }
 
         // Search filter
         if (!searchQuery.trim()) return true;
@@ -69,6 +109,8 @@ function Quiz() {
             String(q.question_number).includes(term)
         );
     });
+
+    /* -------------------- render -------------------- */
 
     return (
         <div>
@@ -91,22 +133,21 @@ function Quiz() {
                 ))}
             </div>
 
-
-
-            {/* Search */}
+            {/* Search + Year */}
             <SearchInput
                 onSearch={handleSearch}
                 placeHolder="Search Category, Exam, Topic..."
+                years={availableYears}          // ✅ FIXED
+                selectedYear={selectedYear}
+                onYearChange={setSelectedYear}
+                resultCount={filteredQuestions.length}
             />
 
             {/* Quiz Cards */}
             <QuizContainer>
                 {filteredQuestions.length > 0 ? (
                     filteredQuestions.map((question, index) => (
-                        <QuizList
-                            key={index}
-                            question={question}
-                        />
+                        <QuizList key={index} question={question} />
                     ))
                 ) : (
                     <p className="text-center text-gray-500 col-span-2">
