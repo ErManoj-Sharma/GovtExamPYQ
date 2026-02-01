@@ -514,7 +514,8 @@ export const HH56 = [
       "E": "Question not attempted"
     },
     "auto_assigned": false,
-    "exam_name": "Chemistry Exam",
+    "exam_name": "4th Grade Exam 2025 - 56HH",
+    "exam_type": "4th Grade",
     "question_topic": "Chemical Reactions",
     "correct_answer": "B"
   },
