@@ -75,9 +75,6 @@ A Contact / Connect page to reach the developer
 
 Useful for feedback, suggestions, or collaboration
 
-📸 Screenshot:
-/screenshots/contact-page.png
-
 # 🛠️ Tech Stack
 
 Framework: Next.js
