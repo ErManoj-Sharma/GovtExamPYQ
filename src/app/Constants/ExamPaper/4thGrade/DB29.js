@@ -11,6 +11,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "General Knowledge",
     "correct_answer": "D"
@@ -27,6 +28,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Current Affairs",
     "correct_answer": "A"
@@ -43,6 +45,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Rajasthan GK",
     "correct_answer": "B"
@@ -59,6 +62,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Mathematics",
     "correct_answer": "D"
@@ -75,6 +79,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "General Knowledge",
     "correct_answer": "A"
@@ -91,6 +96,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Mathematics",
     "correct_answer": "A"
@@ -107,6 +113,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Rajasthan GK",
     "correct_answer": "B"
@@ -123,6 +130,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Rajasthan GK",
     "correct_answer": "D"
@@ -139,6 +147,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Rajasthan GK",
     "correct_answer": "C"
@@ -155,6 +164,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Indian Polity",
     "correct_answer": "B"
@@ -171,6 +181,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Geography",
     "correct_answer": "C"
@@ -187,6 +198,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Rajasthan GK",
     "correct_answer": "D"
@@ -203,6 +215,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Rajasthan GK",
     "correct_answer": "D"
@@ -219,6 +232,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "General Knowledge",
     "correct_answer": "B"
@@ -235,6 +249,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Indian Polity",
     "correct_answer": "C"
@@ -251,6 +266,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Rajasthan GK",
     "correct_answer": "A"
@@ -267,6 +283,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Rajasthan GK",
     "correct_answer": "B"
@@ -283,6 +300,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "General Knowledge",
     "correct_answer": "A"
@@ -299,13 +317,14 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Computer Science",
     "correct_answer": "D"
   },
   {
     "question_number": 20,
-    "question_text": "If x  y  10, y  z  8 and z  x  24, then the average of x , y and z is :",
+    "question_text": "If x + y = 10, y + z = 8 and z + x = 24, then the average of x , y and z is :",
     "options": {
       "A": "10",
       "B": "9",
@@ -315,6 +334,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Mathematics",
     "correct_answer": "D"
@@ -331,13 +351,14 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "History",
     "correct_answer": "C"
   },
   {
     "question_number": 22,
-    "question_text": "A man bought some sweets at the rate of 4 for ` 21 and sold them at the rate of 2 for ` 13. In the whole transaction he gained ` 180.  How many sweets did he buy ?",
+    "question_text": "A man bought some sweets at the rate of 4 for ₹ 21 and sold them at the rate of 2 for ₹ 13. In the whole transaction he gained ₹ 180.  How many sweets did he buy ?",
     "options": {
       "A": "144",
       "B": "140",
@@ -347,6 +368,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "General Knowledge",
     "correct_answer": "A"
@@ -363,6 +385,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Indian Polity",
     "correct_answer": "A"
@@ -379,6 +402,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Rajasthan GK",
     "correct_answer": "B"
@@ -395,6 +419,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Rajasthan GK",
     "correct_answer": "A"
@@ -411,6 +436,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Rajasthan GK",
     "correct_answer": "A"
@@ -427,28 +453,31 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Rajasthan GK",
     "correct_answer": "A"
   },
   {
     "question_number": 28,
-    "question_text": "A and B together can do a work in 10 days; B and C together can do the same work in 12 days whereas A and C together can do it in 15 days. How long will A,  B  and  C  take  to  do  the  work  if  they  work together ? - 2 days - 2 days (D)  7 days",
+    "question_text": "A and B together can do a work in 10 days; B and C together can do the same work in 12 days whereas A and C together can do it in 15 days. How long will A,  B  and  C  take  to  do  the  work  if  they  work together ? ",
     "options": {
-      "A": "1 7",
+      "A": "7 1⁄2 days",
       "B": "8 days",
-      "C": "1 8",
+      "C": "8 1⁄2 days",
+      "D": "7 days",
       "E": "Question not attempted"
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "General Knowledge",
     "correct_answer": "B"
   },
   {
     "question_number": 29,
-    "question_text": "Study the graph and answer the following question : <!-- image --> The maximum rise in the production of raw wool with respect to previous year :",
+    "question_text": "Study the graph and answer the following question : The maximum rise in the production of raw wool with respect to previous year :",
     "options": {
       "A": "2020-21",
       "B": "2016-17",
@@ -457,7 +486,11 @@ export const DB29 = [
       "E": "Question not attempted"
     },
     "auto_assigned": false,
+    "image_required": true,
+    "question_type": "Image-Based-Question",
+    "image_url": "/ExamPaper/4thGrade/DB29/Q29.jpg",
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "General Knowledge",
     "correct_answer": "B"
@@ -474,6 +507,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "General Knowledge",
     "correct_answer": "B"
@@ -490,6 +524,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Geography",
     "correct_answer": "D"
@@ -506,6 +541,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Art & Culture",
     "correct_answer": "B"
@@ -522,22 +558,24 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "General Knowledge",
     "correct_answer": "B"
   },
   {
     "question_number": 34,
-    "question_text": "A, B and C entered into a partnership by making equal  investments.  After  2  months,  B  made  an additional investment of 50% of his initial investment and C made an additional investment of 20% of  his  initial  investment.  If  at  the  end  of  the year, A received ` 22,800 as his share in the profit, then find the total profit.",
+    "question_text": "A, B and C entered into a partnership by making equal  investments.  After  2  months,  B  made  an additional investment of 50% of his initial investment and C made an additional investment of 20% of  his  initial  investment.  If  at  the  end  of  the year, A received ₹ 22,800 as his share in the profit, then find the total profit.",
     "options": {
-      "A": "` 79,500",
-      "B": "` 80,920",
-      "C": "` 81,700",
-      "D": "` 78,600",
+      "A": "₹ 79,500",
+      "B": "₹ 80,920",
+      "C": "₹ 81,700",
+      "D": "₹ 78,600",
       "E": "Question not attempted"
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Mathematics",
     "correct_answer": "C"
@@ -554,6 +592,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Rajasthan GK",
     "correct_answer": "B"
@@ -570,6 +609,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Rajasthan GK",
     "correct_answer": "D"
@@ -586,6 +626,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "General Knowledge",
     "correct_answer": "A"
@@ -602,6 +643,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "General Knowledge",
     "correct_answer": "A"
@@ -618,6 +660,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "General Knowledge",
     "correct_answer": "B"
@@ -634,6 +677,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "General Knowledge",
     "correct_answer": "B"
@@ -650,6 +694,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "General Knowledge",
     "correct_answer": "A"
@@ -666,6 +711,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "General Knowledge",
     "correct_answer": "D"
@@ -682,22 +728,24 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Computer Science",
     "correct_answer": "B"
   },
   {
     "question_number": 44,
-    "question_text": "A dealer sold two items for ` 5,700 each. On one item he gained 14% and on the other item he lost 5%. Find his profit or loss percentage in the whole transaction. - %",
+    "question_text": "A dealer sold two items for ₹ 5,700 each. On one item he gained 14% and on the other item he lost 5%. Find his profit or loss percentage in the whole transaction. - %",
     "options": {
-      "A": "Profit 7 3 11 %",
-      "B": "Profit 1 4 2",
-      "C": "Loss 2 3 11 %",
+      "A": "Profit 3 ⁷⁄₁₁ %",
+      "B": "Profit 4 1⁄2 %",
+      "C": "Loss 3 2⁄₁₁ %",
       "D": "Profit 11%",
       "E": "Question not attempted"
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Mathematics",
     "correct_answer": "A"
@@ -708,12 +756,13 @@ export const DB29 = [
     "options": {
       "A": "14",
       "B": "15",
-      "C": "1 15 2",
+      "C": "15 1⁄2",
       "D": "16",
       "E": "Question not attempted"
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "General Knowledge",
     "correct_answer": "D"
@@ -730,6 +779,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Rajasthan GK",
     "correct_answer": "A"
@@ -746,6 +796,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Rajasthan GK",
     "correct_answer": "B"
@@ -762,6 +813,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "General Knowledge",
     "correct_answer": "D"
@@ -778,13 +830,14 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Rajasthan GK",
     "correct_answer": "B"
   },
   {
     "question_number": 50,
-    "question_text": "The  Mahi  Mahotsav  is  officially  celebrated  in  the \\_\\_\\_\\_\\_\\_\\_\\_  region of Rajasthan every year.",
+    "question_text": "The  Mahi  Mahotsav  is  officially  celebrated  in  the __________  region of Rajasthan every year.",
     "options": {
       "A": "Dungarpur",
       "B": "Pratapgarh",
@@ -794,6 +847,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Rajasthan GK",
     "correct_answer": "D"
@@ -810,6 +864,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Mathematics",
     "correct_answer": "C"
@@ -826,22 +881,24 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "General Knowledge",
     "correct_answer": "D"
   },
   {
     "question_number": 53,
-    "question_text": "The reaction between which of the following pairs of reactants, will result in a displacement reaction ?",
+    "question_text": "The reaction between which of the following pairs of reactants will result in a displacement reaction?",
     "options": {
-      "A": "AgNO 3  solution and Copper metal",
-      "B": "CuSO 4  solution and Silver metal",
+      "A": "AgNO₃ solution and Copper metal",
+      "B": "CuSO₄ solution and Silver metal",
       "C": "NaCl solution and Copper metal",
-      "D": "FeSO 4  solution and Copper metal",
+      "D": "FeSO₄ solution and Copper metal",
       "E": "Question not attempted"
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Science",
     "correct_answer": "A"
@@ -858,24 +915,26 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "General Knowledge",
     "correct_answer": "C"
   },
   {
     "question_number": 55,
-    "question_text": "The chemical formula of Baking Soda is :",
+    "question_text": "The chemical formula of Baking Soda is:",
     "options": {
-      "A": "CaOCl 2",
-      "B": "NaHCO 3",
-      "C": "Na 2 CO 3",
-      "D": "CaSO 4",
+      "A": "CaOCl₂",
+      "B": "NaHCO₃",
+      "C": "Na₂CO₃",
+      "D": "CaSO₄",
       "E": "Question not attempted"
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
-    "question_topic": "History",
+    "question_topic": "Science",
     "correct_answer": "B"
   },
   {
@@ -890,6 +949,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Rajasthan GK",
     "correct_answer": "B"
@@ -906,6 +966,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Rajasthan GK",
     "correct_answer": "A"
@@ -922,6 +983,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Rajasthan GK",
     "correct_answer": "D"
@@ -932,11 +994,13 @@ export const DB29 = [
     "options": {
       "A": "Maharashtra",
       "B": "Delhi",
-      "C": "Himachal Pradesh (D) Punjab",
+      "C": "Himachal Pradesh ",
+      "D": "Punjab",
       "E": "Question not attempted"
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Rajasthan GK",
     "correct_answer": "D"
@@ -953,6 +1017,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Rajasthan GK",
     "correct_answer": "D"
@@ -969,6 +1034,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Rajasthan GK",
     "correct_answer": "B"
@@ -985,6 +1051,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Geography",
     "correct_answer": "A"
@@ -1001,6 +1068,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "General Knowledge",
     "correct_answer": "B"
@@ -1017,6 +1085,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "General Knowledge",
     "correct_answer": "D"
@@ -1033,6 +1102,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "General Knowledge",
     "correct_answer": "A"
@@ -1049,6 +1119,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Geography",
     "correct_answer": "A"
@@ -1065,6 +1136,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Rajasthan GK",
     "correct_answer": "A"
@@ -1081,6 +1153,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Rajasthan GK",
     "correct_answer": "B"
@@ -1097,6 +1170,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Rajasthan GK",
     "correct_answer": "A"
@@ -1113,6 +1187,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Rajasthan GK",
     "correct_answer": "D"
@@ -1129,22 +1204,24 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Geography",
     "correct_answer": "A"
   },
   {
     "question_number": 72,
-    "question_text": "A  sum  of ` 2,500  on  simple  interest  becomes ` 3,250  in  3  years.  What  will  be  the  compound interest on the same sum at the same rate of interest after 2 years ?",
+    "question_text": "A  sum  of ₹ 2,500  on  simple  interest  becomes ₹ 3,250  in  3  years.  What  will  be  the  compound interest on the same sum at the same rate of interest after 2 years ?",
     "options": {
-      "A": "` 510",
-      "B": "` 525",
-      "C": "` 550",
-      "D": "` 500",
+      "A": "₹ 510",
+      "B": "₹ 525",
+      "C": "₹ 550",
+      "D": "₹ 500",
       "E": "Question not attempted"
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Mathematics",
     "correct_answer": "B"
@@ -1161,6 +1238,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Indian Polity",
     "correct_answer": "B"
@@ -1177,6 +1255,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Mathematics",
     "correct_answer": "B"
@@ -1193,6 +1272,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Mathematics",
     "correct_answer": "B"
@@ -1209,6 +1289,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "General Knowledge",
     "correct_answer": "B"
@@ -1225,6 +1306,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Science",
     "correct_answer": "A"
@@ -1241,13 +1323,14 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Art & Culture",
     "correct_answer": "B"
   },
   {
     "question_number": 79,
-    "question_text": "- 'Climate  change'  is  considered  a  causal  factor  of which of the following phenomena ?",
+    "question_text": "'Climate  change'  is  considered  a  causal  factor  of which of the following phenomena ?",
     "options": {
       "A": "Extreme weather events",
       "B": "Low risk of species extinction",
@@ -1257,6 +1340,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Geography",
     "correct_answer": "A"
@@ -1273,6 +1357,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "General Knowledge",
     "correct_answer": "A"
@@ -1289,6 +1374,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Computer Science",
     "correct_answer": "C"
@@ -1305,22 +1391,24 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Mathematics",
     "correct_answer": "A"
   },
   {
     "question_number": 83,
-    "question_text": "A sum of money becomes ` 6,65,500 in 3 years and ` 8,05,255  in  5  years  at  certain  rate  of  compound interest. If interest is being compounded annually, then what is the sum ?",
+    "question_text": "A sum of money becomes ₹ 6,65,500 in 3 years and ₹ 8,05,255  in  5  years  at  certain  rate  of  compound interest. If interest is being compounded annually, then what is the sum ?",
     "options": {
-      "A": "` 4,92,000",
-      "B": "` 5,00,000",
-      "C": "` 5,25,000",
-      "D": "` 4,80,000",
+      "A": "₹ 4,92,000",
+      "B": "₹ 5,00,000",
+      "C": "₹ 5,25,000",
+      "D": "₹ 4,80,000",
       "E": "Question not attempted"
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Mathematics",
     "correct_answer": "B"
@@ -1337,6 +1425,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "History",
     "correct_answer": "A"
@@ -1344,7 +1433,7 @@ export const DB29 = [
   {
     "question_number": 85,
     "question_text": "Match List-1 with List-2",
-    "question_type": "Match_List1_With_L2:",
+    "question_type": "Match_List1_With_L2",
     "description": {
       "list1_title": "Position of object in front of concave mirror",
       "list2_title": "Size of image formed by concave mirror",
@@ -1394,6 +1483,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Physics",
     "correct_answer": "B"
@@ -1402,14 +1492,15 @@ export const DB29 = [
     "question_number": 86,
     "question_text": "निम्नलिखित में से कौन-सा वाक्य, ‘हेतुहेतुमद् भूतकाल’ का उदाहरण है?",
     "options": {
-      "A": "वह आया और मुरारी को गले लगाया।",
-      "B": "मैं पढ़ता, लेनकन पुस्तक गिर गई।",
+      "A": "वह आया और मुरारी को गले मिला।",
+      "B": "मैं पढ़ता, लेकिन पुस्तक खो गई।",
       "C": "लड़के ने पुस्तक पढ़ी है।",
       "D": "राधा पुस्तकालय में पढ़ती है।",
       "E": "अनुत्तरित प्रश्न"
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Hindi Grammar",
     "correct_answer": "B"
@@ -1421,27 +1512,29 @@ export const DB29 = [
       "A": "ममता",
       "B": "सभा",
       "C": "बचपन",
-      "D": "नम्रता",
+      "D": "मित्रता",
       "E": "अनुत्तरित प्रश्न"
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Hindi Grammar",
     "correct_answer": "B"
   },
   {
     "question_number": 88,
-    "question_text": "'बारात को आना निलाने के लिए क्विंटल-भर अनाज चाहए।' – इस वाक्य में कौन-सा विशेषण प्रयुक्त हुआ है?",
+    "question_text": "'बारात को खाना खिलाने के लिए क्विंटल-भर अनाज चाहिए' – इस वाक्य में कौन-सा विशेषण प्रयुक्त हुआ है?",
     "options": {
       "A": "परिमाणवाचक विशेषण",
       "B": "गुणवाचक विशेषण",
-      "C": "सावधान करनेवाला विशेषण",
+      "C": "सार्वनामिक विशेषण",
       "D": "संख्यावाचक विशेषण",
       "E": "अनुत्तरित प्रश्न"
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Hindi Grammar",
     "correct_answer": "A"
@@ -1450,14 +1543,15 @@ export const DB29 = [
     "question_number": 89,
     "question_text": "निम्नलिखित में से शुद्ध वाक्य है:",
     "options": {
-      "A": "उसने सुविर आना पकाया।",
-      "B": "मुझको ज्ञान समझ नहीं आता।",
-      "C": "सांख्य और जीवन का घनिष्ठ संबंध है।",
-      "D": "मुझके लिए मुंडी बफव और गमव आग लाओ।",
+      "A": "उसने सुन्दर खाना पकाया।",
+      "B": "मेरे को विज्ञानं समझ नहीं आता।",
+      "C": "साहित्य और जीवन का घनिष्ठ संबंध है।",
+      "D": "मेरे लिए ठंडी बर्फ और गर्म आग लाओ।",
       "E": "अनुत्तरित प्रश्न"
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Hindi Grammar",
     "correct_answer": "C"
@@ -1466,7 +1560,7 @@ export const DB29 = [
     "question_number": 90,
     "question_text": "निम्नलिखित में से कौन-सा तत्सम शब्द नहीं है?",
     "options": {
-      "A": "दीर",
+      "A": "खीर",
       "B": "अग्नि",
       "C": "वत्स",
       "D": "मयूर",
@@ -1474,6 +1568,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Hindi Grammar",
     "correct_answer": "A"
@@ -1490,6 +1585,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Hindi Grammar",
     "correct_answer": "D"
@@ -1506,6 +1602,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Hindi Grammar",
     "correct_answer": "A"
@@ -1522,6 +1619,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Hindi Grammar",
     "correct_answer": "B"
@@ -1538,6 +1636,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Hindi Grammar",
     "correct_answer": "C"
@@ -1548,12 +1647,13 @@ export const DB29 = [
     "options": {
       "A": "तेंदुआ",
       "B": "पगड़ी",
-      "C": "नचनड़या",
+      "C": "चिड़िया",
       "D": "इंजन",
       "E": "अनुत्तरित प्रश्न"
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Hindi Grammar",
     "correct_answer": "D"
@@ -1570,6 +1670,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Hindi Grammar",
     "correct_answer": "C"
@@ -1578,14 +1679,15 @@ export const DB29 = [
     "question_number": 97,
     "question_text": "निम्नलिखित में से शुद्ध शब्द है:",
     "options": {
-      "A": "उज्वल",
+      "A": "उजवल",
       "B": "अनुकूल",
-      "C": "वाल्मीकि",
-      "D": "निश्वास",
+      "C": "वाल्मीकी",
+      "D": "विशवास",
       "E": "अनुत्तरित प्रश्न"
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Hindi Grammar",
     "correct_answer": "B"
@@ -1602,22 +1704,24 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Hindi Grammar",
     "correct_answer": "C"
   },
   {
     "question_number": 99,
-    "question_text": "निम्नलिखित में से किस वाक्य में सकर्मक क्रिया का प्रयोग नहीं हुआ है?",
+    "question_text": "निम्नलिखित में से किस वाक्य में सकर्मक क्रिया का प्रयोग <b>नहीं</b> हुआ है?",
     "options": {
-      "A": "वह ज्ञान पढ़ाता है।",
+      "A": "वह विज्ञान पढ़ाता है।",
       "B": "बच्चा गीत गा रहा है।",
       "C": "मेरा दिल घबराता है।",
-      "D": "मोहन घर जाते समय गाता है।",
+      "D": "मोहन क्रिकेट खेलता है।",
       "E": "अनुत्तरित प्रश्न"
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Hindi Grammar",
     "correct_answer": "C"
@@ -1634,22 +1738,24 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Hindi Grammar",
     "correct_answer": "A"
   },
   {
     "question_number": 101,
-    "question_text": "निम्नलिखित शब्दों में से 'अरण्य' शब्द का पर्यायवाची नहीं है:",
+    "question_text": "निम्नलिखित शब्दों में से 'अरण्य' शब्द का पर्यायवाची <b>नहीं</b> है:<br />(I) वन  (II) कानन (III) गगन (IV) जंगल (V) तिमिर",
     "options": {
-      "A": "वन",
-      "B": "कानन",
-      "C": "गगन",
-      "D": "जंगल",
+      "A": "केवल (I) और (II)",
+      "B": "केवल (III) और (V)",
+      "C": "केवल (I) और (IV)",
+      "D": "केवल (II) और (IV)",
       "E": "अनुत्तरित प्रश्न"
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Hindi Grammar",
     "correct_answer": "B"
@@ -1659,29 +1765,31 @@ export const DB29 = [
     "question_text": "'जूतियाँ चटकाना' मुहावरे का अर्थ है:",
     "options": {
       "A": "जूतों को इधर-उधर फेंकना",
-      "B": "व्यक्ति इधर-उधर घूमना",
+      "B": "व्यर्थ इधर-उधर घूमना",
       "C": "घर में जूतों का ढेर लगाना",
       "D": "काम में मन न लगाना",
       "E": "अनुत्तरित प्रश्न"
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Hindi Grammar",
     "correct_answer": "B"
   },
   {
     "question_number": 103,
-    "question_text": "एक व्यावसायिक पत्र में कौन-सा गुण नहीं होना चाहिए?",
+    "question_text": "एक व्यावसायिक पत्र में कौन-सा गुण <b>नहीं</b> होना चाहिए?",
     "options": {
       "A": "निश्चयात्मकता",
-      "B": "धूतवता",
+      "B": "धूर्तता",
       "C": "पूर्णता",
       "D": "स्पष्टता",
       "E": "अनुत्तरित प्रश्न"
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Hindi Grammar",
     "correct_answer": "B"
@@ -1693,11 +1801,12 @@ export const DB29 = [
       "A": "गुणों के साथ अंधा होना",
       "B": "अंधे व्यक्ति का गुणी होना",
       "C": "अंधे व्यक्ति का ईमानदार होना",
-      "D": "गुणों के अनुरूप नाम होना",
+      "D": "गुणों के विरुद्ध नाम होना",
       "E": "अनुत्तरित प्रश्न"
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Hindi Grammar",
     "correct_answer": "D"
@@ -1730,7 +1839,7 @@ export const DB29 = [
       "list2_items": [
         {
           "id": "i",
-          "text": "देो तो कौन आया है?"
+          "text": "देखो तो कौन आया है?"
         },
         {
           "id": "ii",
@@ -1738,7 +1847,7 @@ export const DB29 = [
         },
         {
           "id": "iii",
-          "text": "कुछ लीजिए।"
+          "text": "कुछ दे दीजिये |"
         },
         {
           "id": "iv",
@@ -1755,6 +1864,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "Hindi Grammar",
     "correct_answer": "D"
@@ -1771,6 +1881,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "English Grammar",
     "correct_answer": "A"
@@ -1787,13 +1898,14 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "English Grammar",
     "correct_answer": "A"
   },
   {
     "question_number": 108,
-    "question_text": "Choose the most appropriate option to replace the underlined part of the following sentence in order to make it grammatically correct: Amrita didn’t knew my address.",
+    "question_text": "Choose the most appropriate option to replace the underlined part of the following sentence in order to make it grammatically correct: Amrita <u>didn’t knew</u> my address.",
     "options": {
       "A": "didn’t known",
       "B": "didn’t know",
@@ -1803,6 +1915,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "English Grammar",
     "correct_answer": "B"
@@ -1819,6 +1932,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "English Grammar",
     "correct_answer": "C"
@@ -1876,6 +1990,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "English Grammar",
     "correct_answer": "A"
@@ -1892,6 +2007,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "English Grammar",
     "correct_answer": "B"
@@ -1908,6 +2024,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "English Grammar",
     "correct_answer": "C"
@@ -1924,6 +2041,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "English Grammar",
     "correct_answer": "D"
@@ -1940,6 +2058,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "English Grammar",
     "correct_answer": "A"
@@ -1956,6 +2075,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "English Grammar",
     "correct_answer": "D"
@@ -1972,6 +2092,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "English Grammar",
     "correct_answer": "A"
@@ -1988,6 +2109,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "English Grammar",
     "correct_answer": "B"
@@ -2004,6 +2126,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "English Grammar",
     "correct_answer": "C"
@@ -2020,6 +2143,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "English Grammar",
     "correct_answer": "B"
@@ -2036,6 +2160,7 @@ export const DB29 = [
     },
     "auto_assigned": false,
     "exam_name": "4th Grade Exam 2025 - DB29",
+    "verified": true,
     "exam_type": "4th Grade",
     "question_topic": "English Grammar",
     "correct_answer": "B"
