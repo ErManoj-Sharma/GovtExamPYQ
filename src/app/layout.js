@@ -1,64 +1,73 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import StructuredData from "./Components/StructuredData";
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Manoj Sharma | Full Stack Developer Portfolio, Blogs & Courses",
+  title: "Rajasthan Govt Exam PYQ Quiz | Practice Previous Year Questions",
   description:
-    "Explore Manoj Sharma's personal portfolio featuring expert blogs on programming and full stack development. Access free courses on Python, Java, Advent of Code, SQL, and cheat sheets for Docker, Redux, Next.js, Linux, and more. Get in touch or learn about the latest tech skills.",
+    "Practice Rajasthan Government Exam Previous Year Questions (PYQ) in quiz format. Supports MCQ, match the list, image-based questions, powerful filters by year and category, light & dark mode, and official question paper PDFs. Built by Manoj Sharma.",
+
   icons: {
-    icon: "/og-image.png", // or "/your-icon.png"
+    icon: "/og-image.png",
   },
+
   keywords: [
+    "Rajasthan Govt Exam PYQ",
+    "Rajasthan Exam Quiz",
+    "RPSC Previous Year Questions",
+    "Rajasthan MCQ Practice",
+    "Rajasthan Competitive Exams",
+    "Rajasthan Govt Jobs Preparation",
+    "PYQ Quiz Rajasthan",
+    "Rajasthan Exam Mock Test",
+    "Rajasthan Old Question Papers",
+    "MCQ Quiz App",
+    "Match the Following Questions",
+    "Image Based Questions",
+    "Next.js Quiz App",
     "Manoj Sharma",
-    "Full Stack Developer",
-    "Programming Blogs",
-    "Free Coding Courses",
-    "Python Course",
-    "Java Course",
-    "SQL Course",
-    "Advent of Code",
-    "Docker Cheat Sheet",
-    "Redux Cheat Sheet",
-    "Next.js SEO",
-    "Linux Tips",
-    "Vim Commands",
-    "Web Development Portfolio",
-    "React Developer",
-    "Contact Manoj Sharma",
-    "Frontend Backend Skills",
-    "JavaScript Developer",
-    "Software Developer Portfolio",
   ].join(", "),
-  authors: [{ name: "Manoj Sharma", url: "https://manoj-sharma-portfolio.vercel.app/" }],
+
+  authors: [
+    {
+      name: "Manoj Sharma",
+      url: "https://your-vercel-project-url.vercel.app/",
+    },
+  ],
+
   creator: "Manoj Sharma",
-  metadataBase: new URL("https://manoj-sharma-portfolio.vercel.app/"),
+
+  metadataBase: new URL("https://your-vercel-project-url.vercel.app/"),
+
   openGraph: {
-    title: "Manoj Sharma | Full Stack Developer Portfolio & Learning Hub",
+    title: "Rajasthan Govt Exam PYQ Quiz | Smart Practice Platform",
     description:
-      "Visit my portfolio to read blogs on full stack development, access coding courses, and download powerful developer cheat sheets.",
-    url: "https://manoj-sharma-portfolio.vercel.app/",
-    siteName: "Manoj Sharma Portfolio",
+      "A modern quiz platform for Rajasthan Govt Exam PYQs. Practice MCQs, match-the-list and image-based questions with filters, answer feedback, dark mode, and official PDFs.",
+    url: "https://your-vercel-project-url.vercel.app/",
+    siteName: "Rajasthan Exam PYQ Quiz",
     images: [
       {
-        url: "https://manoj-sharma-portfolio.vercel.app/og-image.jpg", // Replace with your Open Graph image
+        url: "https://your-vercel-project-url.vercel.app/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Manoj Sharma Portfolio",
+        alt: "Rajasthan Govt Exam PYQ Quiz",
       },
     ],
-    locale: "en_US",
+    locale: "en_IN",
     type: "website",
   },
+
   twitter: {
     card: "summary_large_image",
-    title: "Manoj Sharma | Developer Portfolio, Blogs & Courses",
+    title: "Rajasthan Govt Exam PYQ Quiz | Practice Smarter",
     description:
-      "Access free coding content including full stack dev blogs, Python/Java/SQL courses, Docker/Redux cheat sheets, and more.",
-    creator: "@ManojSharma1822", // Optional
-    images: ["https://manoj-sharma-portfolio.vercel.app/og-image.jpg"], // Replace with actual image
+      "Prepare for Rajasthan Govt Exams with PYQs in quiz format. MCQs, match-the-list, image-based questions, filters, dark mode & PDFs.",
+    creator: "@ManojSharma1822", // optional
+    images: ["https://your-vercel-project-url.vercel.app/og-image.jpg"],
   },
+
   robots: {
     index: true,
     follow: true,
@@ -90,7 +99,9 @@ export default function RootLayout({ children }) {
           }}
         />
       </head>
-      <body className={`${inter.className} bg-white dark:bg-black`}>{children}</body>
+      <body className={`${inter.className} bg-white dark:bg-black`}>
+        {children}
+      </body>
     </html>
   );
 }
