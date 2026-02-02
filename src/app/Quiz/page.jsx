@@ -56,6 +56,14 @@ function Quiz() {
         setSearchQuery(query);
     };
 
+    const normalizeText = value => {
+        if (Array.isArray(value)) {
+            return value.join(" ").toLowerCase();
+        }
+        return String(value ?? "").toLowerCase();
+    };
+
+
     /* -------- AVAILABLE YEARS (BASED ON SELECTED CHIPS) -------- */
     const availableYears = Array.from(
         new Set(
@@ -103,12 +111,13 @@ function Quiz() {
             .filter(Boolean);
 
         return searchTerms.some(term =>
-            q.question_text.toLowerCase().includes(term) ||
-            q.exam_name.toLowerCase().includes(term) ||
-            q.question_topic.toLowerCase().includes(term) ||
+            normalizeText(q.question_text).includes(term) ||
+            normalizeText(q.exam_name).includes(term) ||
+            normalizeText(q.question_topic).includes(term) ||
             String(q.question_number).includes(term)
         );
     });
+
 
     /* -------------------- render -------------------- */
 

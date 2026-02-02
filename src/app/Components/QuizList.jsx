@@ -3,7 +3,7 @@
 
 import React, { useState } from 'react';
 import { X, AlertCircle, ImageIcon, XCircle, FileText, MessageSquare, CheckCircle } from 'lucide-react';
-
+import Image from "next/image";
 
 // Report Modal Component
 const ReportModal = ({ isOpen, onClose, question, onSubmit }) => {
@@ -283,20 +283,29 @@ const QuizList = ({ question }) => {
 
                     </div>
                 </div>
-
-                <h2 className="mb-4 text-gray-900 dark:text-white">
-                    Q.{question.question_number} {question.question_text}
-                </h2>
+                <div>
+                    <h2 className="mb-4 text-gray-900 dark:text-white">
+                        Q.{question.question_number}{" "}
+                        <span
+                            dangerouslySetInnerHTML={{ __html: question.question_text }}
+                        />
+                    </h2>
+                </div>
 
                 {question.image_required && question.image_url && (
                     <div className="my-4">
-                        <img
+                        <Image
                             src={question.image_url}
                             alt={`Question ${question.question_number}`}
+                            width={800}
+                            height={450}
                             className="w-full max-w-xl rounded-lg border shadow-sm"
+                            sizes="(max-width: 768px) 100vw, 800px"
+                            priority={false}
                         />
                     </div>
                 )}
+
 
                 {/* Matching Questions */}
                 {question.question_type === 'Match_List1_With_L2' && renderMatchingQuestion()}
