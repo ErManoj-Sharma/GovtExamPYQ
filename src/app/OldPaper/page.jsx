@@ -223,7 +223,7 @@ const OldPaperPage = () => {
                         {Object.entries(groupedPapers).map(([category, papers]) => (
                             <div
                                 key={category}
-                                className="overflow-hidden rounded-2xl  border-slate-200  shadow-lg dark:bg-primary-dark-50 bg-primary-50"
+                                className="overflow-hidden rounded-2xl  border-slate-200  shadow-lg dark:bg-light-black bg-primary-50"
                             >
                                 {/* Category Header */}
                                 <button
@@ -231,11 +231,11 @@ const OldPaperPage = () => {
                                     className="w-full px-5 sm:px-6 py-4 flex items-center justify-between hover:bg-slate-50 transition"
                                 >
                                     <div className="flex items-center gap-3 min-w-0">
-                                        <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-slate-100">
+                                        <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-slate-100 ">
                                             {expandedCategories[category] ? (
-                                                <ChevronDown className="w-5 h-5 text-slate-700" />
+                                                <ChevronDown className="w-5 h-5 text-primary-700 dark:text-primary-dark" />
                                             ) : (
-                                                <ChevronRight className="w-5 h-5 text-slate-700" />
+                                                <ChevronRight className="w-5 h-5 text-primary-700 dark:text-primary-dark" />
                                             )}
                                         </span>
 
@@ -256,13 +256,13 @@ const OldPaperPage = () => {
 
                                 {/* Papers Grid */}
                                 {expandedCategories[category] && (
-                                    <div className="px-5 sm:px-6 pb-6">
-                                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 dark:bg-primary-dark-50 bg-primary-50">
+                                    <div className=" px-5 sm:px-6 pb-6">
+                                        <div className="p-5 rounded-2xl grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 dark:bg-black bg-primary-50">
                                             {papers.map((paper, index) => (
                                                 <div
                                                     key={index}
-                                                    className="group  rounded-2xl  border-slate-200  p-4 shadow-sm transition
-                               hover:-translate-y-0.5 hover:shadow-md hover:border-blue-200 dark:bg-primary-dark-50 bg-primary-50"
+                                                    className=" group relative rounded-2xl border p-4 transition-all duration-300 bg-black border-primary dark:border-primary-dark shadow-[0_8px_30px_rgba(0,0,0,0.6)] hover:-translate-y-1 hover:shadow-[0_0_0_1px_rgba(59,130,246,0.3),0_20px_50px_rgba(0,0,0,0.9)]
+"
                                                 >
                                                     <div className="flex items-start gap-3">
                                                         <div className="h-12 w-12 rounded-2xl bg-primary-50 dark:bg-primary-dark-50 flex items-center justify-center border border-primary-100 dark:border-primary-dark-200">

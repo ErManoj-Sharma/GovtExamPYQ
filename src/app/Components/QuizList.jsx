@@ -232,7 +232,7 @@ const QuizList = ({ question }) => {
 
     const getOptionClasses = (key) => {
         if (!selected) {
-            return 'bg-primary-50 hover:bg-primary-100 dark:bg-primary-dark-50 dark:hover:bg-primary-dark-100 dark:text-black';
+            return 'bg-primary-50 hover:bg-primary-100 dark:hover:text-black dark:bg-black dark:hover:bg-primary-dark-100 dark:text-white';
         }
 
         if (key === question.correct_answer) {
@@ -257,7 +257,7 @@ const QuizList = ({ question }) => {
             )}
 
 
-            <article className="p-6 bg-white dark:bg-grey-light rounded-lg border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+            <article className="p-6 bg-white dark:bg-light-black rounded-lg border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
                 {/* Header */}
                 <div className="flex justify-between items-center mb-4 text-gray-500">
                     <div className="flex items-center gap-2">
