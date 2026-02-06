@@ -261,7 +261,7 @@ const OldPaperPage = () => {
                                             {papers.map((paper, index) => (
                                                 <div
                                                     key={index}
-                                                    className=" group relative rounded-2xl border p-4 transition-all duration-300 bg-black border-primary dark:border-primary-dark shadow-[0_8px_30px_rgba(0,0,0,0.6)] hover:-translate-y-1 hover:shadow-[0_0_0_1px_rgba(59,130,246,0.3),0_20px_50px_rgba(0,0,0,0.9)]
+                                                    className=" group relative rounded-2xl border p-4 transition-all duration-300 bg-primary-50 dark:bg-black border-primary dark:border-primary-dark shadow-[0_8px_30px_rgba(0,0,0,0.6)] hover:-translate-y-1 hover:shadow-[0_0_0_1px_rgba(59,130,246,0.3),0_20px_50px_rgba(0,0,0,0.9)]
 "
                                                 >
                                                     <div className="flex items-start gap-3">
