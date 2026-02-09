@@ -9,44 +9,9 @@ import { INDIAN_EVENTS, EVENT_CATEGORIES } from '../Constants/Events'
 import Image from 'next/image'
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
-
-// Helper function to detect if content is HTML or Markdown
-const isHTML = (str) => {
-    return /<[a-z][\s\S]*>/i.test(str);
-}
-
-const getMonthName = (monthNumber, locale = 'en-US') => {
-    const date = new Date(2024, monthNumber - 1, 1);
-    return date.toLocaleString(locale, { month: 'long' });
-}
-
-// Convert to FullCalendar events
-const convertToCalendarEvents = () => {
-    return INDIAN_EVENTS.map(event => {
-        const [month, day] = event.date.split('-')
-
-        return {
-            id: event.id,
-            title: event.title,
-            rrule: {
-                freq: 'yearly',
-                bymonth: parseInt(month),
-                bymonthday: parseInt(day),
-                dtstart: `2024-${event.date}`,
-            },
-            backgroundColor: event.color,
-            borderColor: event.color,
-            extendedProps: {
-                image: event.image,
-                shortDescription: event.shortDescription,
-                detailedDescription: event.detailedDescription,
-                category: event.category,
-                month: parseInt(month),
-                day: parseInt(day),
-            }
-        }
-    })
-}
+import { isHTML } from '@/Utils/isHtml'
+import { getMonthName } from '@/Utils/getMonthName'
+import { convertToCalendarEvents } from '@/Utils/convertToCalandar'
 
 function renderEventContent(eventInfo) {
     return (
@@ -64,11 +29,10 @@ function Page() {
     const [selectedEvent, setSelectedEvent] = useState(null)
 
     // Memoize events so they don't recreate on every render
-    const events = useMemo(() => convertToCalendarEvents(), [])
+    const events = useMemo(() => convertToCalendarEvents(INDIAN_EVENTS), [])
 
     // Handle event click
     const handleEventClick = (clickInfo) => {
-        debugger
         setSelectedEvent({
             title: clickInfo.event.title,
             ...clickInfo.event.extendedProps
@@ -92,12 +56,9 @@ function Page() {
             <div className="container mx-auto p-4 md:p-8 lg:p-12">
                 {/* Header Section */}
                 <div className="text-center mb-8">
-                    <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-3">
-                        भारतीय घटनाक्रम कैलेंडर
-                    </h1>
-                    <p className="text-gray-600 text-lg">
+                    <h1 className="text-primary-600 dark:text-primary-dark-600 text-3xl md:text-4xl font-bold mb-2">
                         Indian Events Calendar - Celebrating Every Special Day
-                    </p>
+                    </h1>
                 </div>
 
                 {/* Calendar Card */}
@@ -284,86 +245,6 @@ function Page() {
                     </div>
                 </div>
             )}
-
-            {/* Add custom styles */}
-            <style jsx global>{`
-                @keyframes fadeIn {
-                    from {
-                        opacity: 0;
-                    }
-                    to {
-                        opacity: 1;
-                    }
-                }
-
-                @keyframes slideUp {
-                    from {
-                        transform: translateY(100px);
-                        opacity: 0;
-                    }
-                    to {
-                        transform: translateY(0);
-                        opacity: 1;
-                    }
-                }
-
-                .animate-fadeIn {
-                    animation: fadeIn 0.3s ease-out;
-                }
-
-                .animate-slideUp {
-                    animation: slideUp 0.3s ease-out;
-                }
-
-                /* Custom FullCalendar styling */
-                .fc {
-                    font-family: inherit;
-                }
-
-                .fc-toolbar-title {
-                    font-size: 1.5rem !important;
-                    font-weight: 700 !important;
-                    color: #1f2937 !important;
-                }
-
-                .fc-button {
-                    background-color: #3b82f6 !important;
-                    border: none !important;
-                    border-radius: 0.5rem !important;
-                    padding: 0.5rem 1rem !important;
-                    font-weight: 600 !important;
-                    transition: all 0.2s !important;
-                }
-
-                .fc-button:hover {
-                    background-color: #2563eb !important;
-                    transform: translateY(-1px);
-                }
-
-                .fc-button-active {
-                    background-color: #1d4ed8 !important;
-                }
-
-                .fc-daygrid-day:hover {
-                    background-color: #f3f4f6;
-                }
-
-                .fc-event {
-                    border-radius: 0.375rem !important;
-                    padding: 2px 4px !important;
-                    margin: 1px 2px !important;
-                }
-
-                .fc-day-today {
-                    background-color: #fef3c7 !important;
-                }
-
-                .fc-col-header-cell {
-                    background-color: #f9fafb !important;
-                    font-weight: 600 !important;
-                    color: #374151 !important;
-                }
-            `}</style>
         </div>
     )
 }
