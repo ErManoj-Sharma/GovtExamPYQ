@@ -5,6 +5,7 @@ import FullCalendar from '@fullcalendar/react'
 import dayGridPlugin from '@fullcalendar/daygrid'
 import rrulePlugin from '@fullcalendar/rrule'
 import interactionPlugin from '@fullcalendar/interaction'
+import listPlugin from '@fullcalendar/list'
 import { INDIAN_EVENTS, EVENT_CATEGORIES } from '../Constants/Events'
 import Image from 'next/image'
 import ReactMarkdown from 'react-markdown'
@@ -62,29 +63,33 @@ function Page() {
                 </div>
 
                 {/* Calendar Card */}
-                <div className="bg-white rounded-2xl shadow-2xl p-4 md:p-8 border border-gray-100">
+                <div className="
+
+">
                     <FullCalendar
-                        plugins={[dayGridPlugin, rrulePlugin, interactionPlugin]}
-                        initialView='dayGridMonth'
-                        weekends={true}
+                        plugins={[dayGridPlugin, rrulePlugin, interactionPlugin, listPlugin]}
+                        initialView="listYear"
+                        weekends
                         events={events}
                         eventContent={renderEventContent}
                         eventClick={handleEventClick}
                         height="auto"
                         headerToolbar={{
-                            left: 'prev,next today',
-                            center: 'title',
-                            right: 'dayGridMonth,dayGridWeek'
+                            left: "prev,next today",
+                            center: "title",
+                            right: "dayGridMonth,listYear"
                         }}
-                        eventDisplay='block'
+                        eventDisplay="block"
+                        dayMaxEvents
                         displayEventTime={false}
-                        eventClassNames="cursor-pointer hover:opacity-80 transition-opacity"
+                        eventClassNames=" cursor-pointer rounded-md px-2 py-1 text-black transition dark:text-white"
                     />
                 </div>
 
+
                 {/* Legend */}
-                <div className="mt-6 bg-white rounded-xl shadow-lg p-6">
-                    <h3 className="text-lg font-semibold mb-4 text-gray-800">Event Categories</h3>
+                <div className="mt-6 bg-white dark:bg-light-black rounded-xl shadow-lg p-6">
+                    <h3 className="text-lg font-semibold mb-4 text-gray-800 dark:text-white">Event Categories</h3>
                     <div className="flex flex-wrap gap-3">
                         {Object.entries(EVENT_CATEGORIES).map(([key, value]) => (
                             <div key={key} className="flex items-center gap-2">
@@ -92,7 +97,7 @@ function Page() {
                                     className="w-4 h-4 rounded-full"
                                     style={{ backgroundColor: value.color }}
                                 ></div>
-                                <span className="text-sm text-gray-700">{value.label}</span>
+                                <span className="text-sm text-gray-700 dark:text-white">{value.label}</span>
                             </div>
                         ))}
                     </div>
@@ -106,17 +111,17 @@ function Page() {
                     onClick={closeModal}
                 >
                     <div
-                        className="bg-white rounded-2xl max-w-3xl w-full max-h-[90vh] overflow-hidden shadow-2xl transform transition-all animate-slideUp"
+                        className="bg-white dark:bg-light-black rounded-2xl max-w-3xl w-full max-h-[90vh] overflow-hidden shadow-2xl transform transition-all animate-slideUp"
                         onClick={(e) => e.stopPropagation()}
                     >
                         {/* Modal Header with Gradient */}
-                        <div className="sticky top-0 bg-gradient-to-r from-blue-600 to-purple-600 text-black px-6 py-5 flex justify-between items-center z-10">
+                        <div className="sticky top-0 bg-gradient-to-r from-blue-600 to-purple-600 text-black dark:text-white px-6 py-5 flex justify-between items-center z-10">
                             <h2 className="text-2xl md:text-3xl font-bold pr-8">
                                 {selectedEvent.day} {getMonthName(selectedEvent.month)}-{selectedEvent.title}
                             </h2>
                             <button
                                 onClick={closeModal}
-                                className="text-black hover:bg-white hover:bg-opacity-20 rounded-full w-10 h-10 flex items-center justify-center text-3xl font-bold transition-all"
+                                className="text-black dark:text-white hover:bg-white hover:bg-opacity-20 rounded-full w-10 h-10 flex items-center justify-center text-3xl font-bold transition-all"
                             >
                                 ×
                             </button>
@@ -154,8 +159,8 @@ function Page() {
 
                                 {/* Short Description */}
                                 {selectedEvent.shortDescription && (
-                                    <div className="mb-8 p-4 bg-blue-50 border-l-4 border-blue-500 rounded-r-lg">
-                                        <p className="text-gray-700 text-lg leading-relaxed italic">
+                                    <div className="mb-8 p-4 bg-blue-50 border-l-4 border-blue-500 dark:border-primary-dark-500 rounded-r-lg">
+                                        <p className="text-gray-700 dark:text-white text-lg leading-relaxed italic">
                                             {selectedEvent.shortDescription}
                                         </p>
                                     </div>
@@ -180,7 +185,7 @@ function Page() {
                                             />
                                         ) : (
                                             // Render Markdown
-                                            <div
+                                            <div className='text-black dark:text-white'
 
                                             >
                                                 <ReactMarkdown
@@ -201,13 +206,13 @@ function Page() {
                                                         tbody: ({ node, ...props }) => <tbody {...props} />,
                                                         tr: ({ node, ...props }) => (
                                                             <tr
-                                                                className="bg-white dark:bg-primary-dark-100 border-b border-gray-200 dark:border-gray-700"
+                                                                className="bg-white dark:text-white dark:bg-black border-b border-gray-200 dark:border-gray-700"
                                                                 {...props}
                                                             />
                                                         ),
                                                         th: ({ node, ...props }) => (
                                                             <th
-                                                                className="px-6 py-4 font-bold text-gray-900 whitespace-nowrap dark:text-black"
+                                                                className="px-6 dark:text-white dark:bg-black py-4 font-bold text-gray-900 whitespace-nowrap dark:text-black"
                                                                 {...props}
                                                             />
                                                         ),
