@@ -34,5 +34,5 @@ export const worldWetlandDays = {
 | केओलादेव नेशनल पार्क | Rajasthan | 1981 |
 
 `,
-    color: '#00A8CC',
+    color: "#3caef4"
 }
