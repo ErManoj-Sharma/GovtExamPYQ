@@ -2,9 +2,11 @@
 // Optional: Categories for filtering/color coding
 import { IndianNewsPaperDay } from "./EventDays/29_jan_indian_news_paper_day"
 import { worldWetlandDays } from "./EventDays/2_feb_world_wetland_days"
+import { worldRadioDay } from "./EventDays/13_feb_world_radio_day"
 export const INDIAN_EVENTS = [
     IndianNewsPaperDay,
     worldWetlandDays,
+    worldRadioDay,
 ]
 
 export const EVENT_CATEGORIES = {
