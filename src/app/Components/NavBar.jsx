@@ -59,6 +59,13 @@ const Navbar = ({ active }) => {
               <a href="/OldPaper">Old Papers</a>
             </li>
             <li
+              key="Calandar"
+              className={` ${active == "Calandar" ? "font-bold" : ""
+                } mx-2 my-2 text-primary dark:text-primary-dark hover:border-b-2 hover:border-purple-700 `}
+            >
+              <a href="/Calandar">Calandar</a>
+            </li>
+            <li
               key="Contact"
               className={` ${active == "Contact" ? "font-bold" : ""
                 } mx-2 my-2 text-primary dark:text-primary-dark hover:border-b-2 hover:border-purple-700 `}
