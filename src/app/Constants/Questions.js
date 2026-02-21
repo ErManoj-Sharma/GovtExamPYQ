@@ -4,11 +4,13 @@ import { HH56 } from "./ExamPaper/4thGrade/56HH";
 import { A131_2023 } from "./ExamPaper/CETGraduation/131A-2023";
 import { B131_2023 } from "./ExamPaper/CETGraduation/131B-2023";
 import { C131_2023 } from "./ExamPaper/CETGraduation/131C-2023";
+import { D131_2023 } from "./ExamPaper/CETGraduation/131D-2023";
 export const questions = [
     ...DB29,
     ...DS22,
     ...HH56,
     ...A131_2023,
     ...B131_2023,
-    ...C131_2023
+    ...C131_2023,
+    ...D131_2023
 ];

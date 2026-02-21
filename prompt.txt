@@ -1,0 +1,134 @@
+I need you to process PDF files containing MCQ exam questions and convert them into structured JSON format.
+
+**TASK OVERVIEW:**
+Read PDF files that contain multiple-choice questions (MCQs) in Hindi, English, or both languages. The PDFs may include:
+- Regular MCQ questions with 4-5 options (A, B, C, D, E)
+- Questions with images
+- Match the following type questions (List 1 to List 2)
+- Questions with tables or other formats
+- The last page contains correct answers with question numbers
+
+**OUTPUT FORMAT:**
+Generate a JSON array where each question follows this structure:
+
+**For Regular MCQ Questions:**
+```json
+{
+  "question_number": 1,
+  "question_text": "Full question text here",
+  "options": {
+    "A": "Option A text",
+    "B": "Option B text",
+    "C": "Option C text",
+    "D": "Option D text"
+  },
+  "auto_assigned": false,
+  "exam_name": "Name from PDF or 'Today's Exam' as default",
+  "question_topic": "Detect subject by analyzing question content (e.g., History, Geography, Mathematics, Science, etc.)",
+  "correct_answer": "C"
+}
+```
+
+**For Match the Following Questions:**
+```json
+{
+  "question_number": 85,
+  "question_text": "Match List-1 with List-2",
+  "question_type": "Match_List1_With_L2:",
+  "description": {
+    "list1_title": "Title of List 1",
+    "list2_title": "Title of List 2",
+    "list1_items": [
+      {
+        "id": "a",
+        "text": "Item text"
+      },
+      {
+        "id": "b",
+        "text": "Item text"
+      }
+    ],
+    "list2_items": [
+      {
+        "id": "i",
+        "text": "Item text"
+      },
+      {
+        "id": "ii",
+        "text": "Item text"
+      }
+    ]
+  },
+  "options": {
+    "A": "a-iii, b-i, c-iv, d-ii",
+    "B": "a-iii, b-ii, c-i, d-iv",
+    "C": "a-ii, b-iii, c-iv, d-i",
+    "D": "a-iv, b-ii, c-i, d-iii"
+  },
+  "auto_assigned": false,
+  "exam_name": "Exam name",
+  "question_topic": "Subject",
+  "correct_answer": "B"
+}
+```
+
+**For Image-Based Questions:**
+```json
+{
+  "question_number": 13,
+  "question_type": "Image-Based-Question",
+  "image_url": "/ExamPaper/ExamName/Q13.jpeg",
+  "question_text": "Question text describing or referencing the image",
+  "image_required": true,
+  "options": {
+    "A": "Option A",
+    "B": "Option B",
+    "C": "Option C",
+    "D": "Option D"
+  },
+  "auto_assigned": false,
+  "exam_name": "Exam name",
+  "question_topic": "Subject",
+  "correct_answer": "C"
+}
+```
+
+**IMPORTANT INSTRUCTIONS:**
+
+1. **Question Numbers:** Extract from PDF. Set `auto_assigned: true` ONLY if question number is not available in PDF.
+
+2. **Exam Name:** Extract from PDF filename or header. Default to "Today's Exam" if not found.
+
+3. **Question Topic:** Automatically detect by analyzing question content. Examples:
+   - History, Geography, Polity, Economics
+   - Mathematics, Science, Physics, Chemistry, Biology
+   - Computer, Reasoning, English, Hindi
+   - Current Affairs, Art and Culture, Literature, etc.
+
+4. **Correct Answers:** Extract from the answer key (usually on last page of PDF).
+
+5. **Question Text:** 
+   - Include complete question text
+   - For bilingual questions, include both languages
+   - Preserve formatting and special characters
+
+6. **Special Question Types:**
+   - Identify "Match the Following" and use the Match_List1_With_L2 format
+   - For image-based questions, add `question_type: "Image-Based-Question"` and `image_required: true`
+
+7. **Output Delivery:**
+   - If total questions > 50, create a JSON artifact/file
+   - Provide complete JSON in one response if possible
+   - Use proper JSON formatting with correct syntax
+
+**PROCESS:**
+1. Read and analyze the entire PDF
+2. Extract all questions with options
+3. Extract correct answers from answer key
+4. Detect question topics intelligently
+5. Format according to question type
+6. Generate complete JSON output
+
+Note: If question and options  are in both language hindi or english, then keep only english one 
+
+Please confirm you understand the task, then I'll share the PDF file(s) for processing.
