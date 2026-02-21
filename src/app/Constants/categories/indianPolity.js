@@ -1,0 +1,31 @@
+export const indianPolity = {
+    "Indian Polity & Governance": {
+        "Constituent Assembly": ["Formation", "Meetings", "Committees", "Drafting"],
+        "Constitution Basics": ["Nature", "Parts", "Schedules", "Articles", "SalientFeatures", "BasicStructure"],
+        "Preamble": ["Sovereign", "Socialist", "Secular", "Democratic", "Republic"],
+        "Union & Territory": ["UnionOfIndia", "States", "UTs", "Territories"],
+        "Citizenship": ["Art5to11", "Acquisition", "Termination", "SingleCitizenship"],
+        "Fundamental Rights": ["Art12to35", "Equality", "Freedom", "Exploitation", "Religion", "Education", "Remedies", "Writs", "PIL"],
+        "DPSP": ["SocialistPrinciples", "GandhianPrinciples", "LiberalPrinciples"],
+        "Fundamental Duties": ["Art51A", "Duties"],
+        "Union Government": ["Art52to151", "President", "VicePresident", "PrimeMinister", "Ministers", "AttorneyGeneral"],
+        "Parliament": ["LokSabha", "RajyaSabha", "Sessions", "Bills", "Budget", "Committees"],
+        "State Government": ["Art152to237", "Governor", "ChiefMinister", "StateLegislature", "HighCourt"],
+        "Union Territories": ["Art239to242", "Administration", "Delhi", "Puducherry"],
+        "Judiciary": ["SupremeCourt", "HighCourts", "JudicialReview", "JudicialActivism", "eCourts"],
+        "Panchayati Raj": ["73rdAmendment", "GramSabha", "ThreeTier", "PESA"],
+        "Local Bodies": ["74thAmendment", "Municipalities", "Corporations", "UrbanBodies"],
+        "Centre State Relations": ["Legislative", "Administrative", "Financial", "InterState"],
+        "Tribunals": ["Types", "Functions", "Jurisdiction"],
+        "Elections": ["ElectionCommission", "LokSabha", "RajyaSabha", "State", "VotingBehaviour", "Reforms"],
+        "Emergency": ["National352", "State356", "Financial360"],
+        "Constitutional Bodies": ["CAG", "NITIAayog", "CVC", "Lokpal", "CIC", "NHRC"],
+        "Amendments": ["Art368", "Process", "MajorAmendments", "BasicStructureDoctrine"],
+        "Federal Structure": ["Division", "Concurrent", "Residuary", "EmergingTrends"],
+        "Democratic Politics": ["PartySystem", "Coalition", "Regionalism", "NationalIntegration"],
+        "Contemporary Politics": ["IdentityPolitics", "GenderParticipation", "AIImpact"],
+        "Internal Security": ["Threats", "SecurityForces", "Agencies"],
+        "Public Policy & Rights": ["WelfareState", "LegalRights", "CitizenCharter"],
+        "State Reorganisation": ["LinguisticStates", "NewStates"]
+    }
+};
