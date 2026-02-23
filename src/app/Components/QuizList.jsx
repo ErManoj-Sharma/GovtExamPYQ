@@ -5,6 +5,13 @@ import React, { useState } from 'react';
 import { X, AlertCircle, ImageIcon, XCircle, FileText, MessageSquare, CheckCircle } from 'lucide-react';
 import Image from "next/image";
 
+// Helper to get topic as a display string (handles both string and array)
+const getTopicDisplay = (topic) => {
+    if (!topic) return '';
+    if (Array.isArray(topic)) return topic.join(', ');
+    return String(topic);
+};
+
 // Report Modal Component
 const ReportModal = ({ isOpen, onClose, question, onSubmit }) => {
     const [selectedReason, setSelectedReason] = useState('');
@@ -33,12 +40,13 @@ const ReportModal = ({ isOpen, onClose, question, onSubmit }) => {
         setIsSubmitting(true);
 
         const reportData = {
-            questionNumber: question.question_number,
-            examName: question.exam_name,
-            questionTopic: question.question_topic,
-            questionText: question.question_text,
+            questionId: question.id || null,
+            questionNumber: question.questionNumber || question.question_number,
+            examName: question.examName || question.exam_name,
+            questionTopic: getTopicDisplay(question.questionTopic || question.question_topic),
+            questionText: question.questionText || question.question_text,
             options: question.options,
-            correctAnswer: question.correct_answer,
+            correctAnswer: question.correctAnswer || question.correct_answer,
             reason: selectedReason === 'custom' ? customReason : reportReasons.find(r => r.id === selectedReason)?.label,
             reasonType: selectedReason,
             customReason: selectedReason === 'custom' ? customReason : '',
@@ -186,9 +194,32 @@ const QuizList = ({ question }) => {
     };
 
     const renderMatchingQuestion = () => {
-        if (question.question_type !== 'Match_List1_With_L2') {
+        const qType = question.questionType || question.question_type || '';
+        let description = question.description;
+        
+        // If description is a string, try to parse it (handles JSON string from DB)
+        if (typeof description === 'string') {
+            try {
+                description = JSON.parse(description);
+            } catch (e) {
+                console.error('Failed to parse description:', e);
+                return null;
+            }
+        }
+        
+        // Check for match list question type (case insensitive)
+        if (!qType.toLowerCase().includes('match_list')) {
             return null;
         }
+
+        if (!description || !description.list1_title) {
+            return null;
+        }
+
+        const list1Title = description.list1_title;
+        const list2Title = description.list2_title;
+        const list1Items = description.list1_items || [];
+        const list2Items = description.list2_items || [];
 
         return (
             <div className="mt-4 mb-4 space-y-4">
@@ -197,16 +228,16 @@ const QuizList = ({ question }) => {
                         <thead className="bg-gray-50 dark:bg-gray-700">
                             <tr>
                                 <th className="p-3 text-left text-sm font-semibold text-gray-700 dark:text-gray-200 border-b border-gray-200 dark:border-gray-600">
-                                    {question.description.list1_title}
+                                    {list1Title}
                                 </th>
                                 <th className="p-3 text-left text-sm font-semibold text-gray-700 dark:text-gray-200 border-b border-gray-200 dark:border-gray-600">
-                                    {question.description.list2_title}
+                                    {list2Title}
                                 </th>
                             </tr>
                         </thead>
                         <tbody>
-                            {question.description.list1_items.map((item, index) => (
-                                <tr key={item.id} className="hover:bg-gray-50 dark:hover:bg-gray-700">
+                            {list1Items.map((item, index) => (
+                                <tr key={item.id || index} className="hover:bg-gray-50 dark:hover:bg-gray-700">
                                     <td className="p-3 border-b border-gray-200 dark:border-gray-600">
                                         <div className="flex items-center">
                                             <span className="font-medium mr-2 text-primary-600 dark:text-primary-dark-400">({item.id})</span>
@@ -216,9 +247,9 @@ const QuizList = ({ question }) => {
                                     <td className="p-3 border-b border-gray-200 dark:border-gray-600">
                                         <div className="flex items-center">
                                             <span className="font-medium mr-2 text-primary-600 dark:text-primary-dark-400">
-                                                ({question.description.list2_items[index]?.id || '?'})
+                                                ({list2Items[index]?.id || '?'})
                                             </span>
-                                            {question.description.list2_items[index]?.text || ' - '}
+                                            {list2Items[index]?.text || ' - '}
                                         </div>
                                     </td>
                                 </tr>
@@ -231,15 +262,17 @@ const QuizList = ({ question }) => {
     };
 
     const getOptionClasses = (key) => {
+        const correctAnswer = question.correctAnswer || question.correct_answer;
+        
         if (!selected) {
             return 'bg-primary-50 hover:bg-primary-100 dark:hover:text-black dark:bg-black dark:hover:bg-primary-dark-100 dark:text-white';
         }
 
-        if (key === question.correct_answer) {
+        if (key === correctAnswer) {
             return 'bg-green-100 border-green-600 text-green-800';
         }
 
-        if (key === selected && key !== question.correct_answer) {
+        if (key === selected && key !== correctAnswer) {
             return 'bg-red-100 border-red-600 text-red-800';
         }
 
@@ -262,11 +295,11 @@ const QuizList = ({ question }) => {
                 <div className="flex justify-between items-center mb-4 text-gray-500">
                     <div className="flex items-center gap-2">
                         <span className="bg-primary-100 text-primary-800 text-xs font-medium px-2.5 py-0.5 rounded dark:bg-primary-dark-100 dark:text-primary-dark-800">
-                            {question.question_topic}
+                            {getTopicDisplay(question.questionTopic || question.question_topic)}
                         </span>
 
                         <span className="bg-primary-100 text-primary-800 text-xs font-medium px-2.5 py-0.5 rounded dark:bg-primary-dark-100 dark:text-primary-dark-800">
-                            {question.exam_name}
+                            {question.examName || question.exam_name}
                         </span>
                     </div>
 
@@ -285,18 +318,18 @@ const QuizList = ({ question }) => {
                 </div>
                 <div>
                     <h2 className="mb-4 text-gray-900 dark:text-white">
-                        Q.{question.question_number}{" "}
+                        Q.{question.questionNumber || question.question_number}{" "}
                         <span
-                            dangerouslySetInnerHTML={{ __html: question.question_text }}
+                            dangerouslySetInnerHTML={{ __html: question.questionText || question.question_text }}
                         />
                     </h2>
                 </div>
 
-                {question.image_required && question.image_url && (
+                {(question.imageRequired || question.image_required) && (question.imageUrl || question.image_url) && (
                     <div className="my-4">
                         <Image
-                            src={question.image_url}
-                            alt={`Question ${question.question_number}`}
+                            src={question.imageUrl || question.image_url}
+                            alt={`Question ${question.questionNumber || question.question_number}`}
                             width={800}
                             height={450}
                             className="w-full max-w-xl rounded-lg border shadow-sm"
@@ -308,7 +341,7 @@ const QuizList = ({ question }) => {
 
 
                 {/* Matching Questions */}
-                {question.question_type === 'Match_List1_With_L2' && renderMatchingQuestion()}
+                {(question.questionType || question.question_type) === 'Match_List1_With_L2' && renderMatchingQuestion()}
 
                 {/* Options */}
                 <div className="space-y-2">
@@ -329,10 +362,10 @@ const QuizList = ({ question }) => {
                 <div className="flex justify-between items-center mt-5">
                     {selected && (
                         <span
-                            className={`text-sm font-semibold ${selected === question.correct_answer ? 'text-green-600' : 'text-red-600'
+                            className={`text-sm font-semibold ${selected === (question.correctAnswer || question.correct_answer) ? 'text-green-600' : 'text-red-600'
                                 }`}
                         >
-                            {selected === question.correct_answer ? 'Correct Answer ✅' : 'Wrong Answer ❌'}
+                            {selected === (question.correctAnswer || question.correct_answer) ? 'Correct Answer ✅' : 'Wrong Answer ❌'}
                         </span>
                     )}
                 </div>
