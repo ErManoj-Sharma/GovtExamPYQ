@@ -1,10 +1,12 @@
 'use client'
 import { useState, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
+import MultiSelect from '@/app/Components/MultiSelect'
+import { categories } from '@/app/Constants/category'
 
 interface Question {
   examType: string
-  questionTopic: string
+  questionTopic: string | string[]
 }
 
 export default function NewQuestionPage() {
@@ -20,7 +22,7 @@ export default function NewQuestionPage() {
     examType: '',
     questionNumber: 1,
     questionText: '',
-    questionTopic: '',
+    questionTopic: [] as string[],
     optionA: '',
     optionB: '',
     optionC: '',
@@ -169,19 +171,13 @@ export default function NewQuestionPage() {
 
         <div>
           <label className="block text-sm font-medium mb-1 dark:text-white">Subject/Topic *</label>
-          <input
-            type="text"
-            value={formData.questionTopic}
-            onChange={(e) => setFormData({ ...formData, questionTopic: e.target.value })}
-            className="w-full p-2 border rounded dark:bg-primary-dark-200 dark:text-black"
+          <MultiSelect
+            options={categories}
+            selected={formData.questionTopic}
+            onChange={(selected) => setFormData({ ...formData, questionTopic: selected })}
+            placeholder="Search and select subjects..."
             required
-            list="subjects"
           />
-          <datalist id="subjects">
-            {suggestions.subjects.map(s => (
-              <option key={s} value={s} />
-            ))}
-          </datalist>
         </div>
 
         <div>

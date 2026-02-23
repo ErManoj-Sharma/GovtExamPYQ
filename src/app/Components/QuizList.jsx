@@ -12,6 +12,33 @@ const getTopicDisplay = (topic) => {
     return String(topic);
 };
 
+// Helper to render topic chips (shows first 2 chips + count)
+const TopicChips = ({ topic }) => {
+    if (!topic) return null;
+    
+    const topics = Array.isArray(topic) ? topic : [topic];
+    const displayTopics = topics.slice(0, 2);
+    const remainingCount = topics.length - 2;
+    
+    return (
+        <div className="flex items-center gap-1 flex-wrap">
+            {displayTopics.map((t, idx) => (
+                <span 
+                    key={idx} 
+                    className="bg-primary-100 text-primary-800 text-xs font-medium px-2 py-0.5 rounded dark:bg-primary-dark-100 dark:text-primary-dark-800"
+                >
+                    {t}
+                </span>
+            ))}
+            {remainingCount > 0 && (
+                <span className="bg-primary-100 text-primary-800 text-xs font-medium px-2 py-0.5 rounded dark:bg-primary-dark-100 dark:text-primary-dark-800">
+                    +{remainingCount}
+                </span>
+            )}
+        </div>
+    );
+};
+
 // Report Modal Component
 const ReportModal = ({ isOpen, onClose, question, onSubmit }) => {
     const [selectedReason, setSelectedReason] = useState('');
@@ -294,9 +321,7 @@ const QuizList = ({ question }) => {
                 {/* Header */}
                 <div className="flex justify-between items-center mb-4 text-gray-500">
                     <div className="flex items-center gap-2">
-                        <span className="bg-primary-100 text-primary-800 text-xs font-medium px-2.5 py-0.5 rounded dark:bg-primary-dark-100 dark:text-primary-dark-800">
-                            {getTopicDisplay(question.questionTopic || question.question_topic)}
-                        </span>
+                        <TopicChips topic={question.questionTopic || question.question_topic} />
 
                         <span className="bg-primary-100 text-primary-800 text-xs font-medium px-2.5 py-0.5 rounded dark:bg-primary-dark-100 dark:text-primary-dark-800">
                             {question.examName || question.exam_name}

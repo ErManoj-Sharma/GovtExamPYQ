@@ -38,6 +38,19 @@ export async function GET(req: NextRequest) {
       orderBy: [{ year: 'desc' }, { questionNumber: 'asc' }],
     })
 
+    // Parse questionTopic from JSON string to array for each question
+    const parsedQuestions = questions.map(q => {
+      let topic = q.questionTopic
+      if (typeof topic === 'string') {
+        try {
+          topic = JSON.parse(topic)
+        } catch {
+          // Keep as string if not valid JSON
+        }
+      }
+      return { ...q, questionTopic: topic }
+    })
+
     const examTypesResult = await prisma.question.findMany({
       select: { examType: true },
       distinct: ['examType'],
@@ -50,7 +63,7 @@ export async function GET(req: NextRequest) {
     })
 
     return NextResponse.json({
-      questions,
+      questions: parsedQuestions,
       examTypes: examTypesResult.map(e => e.examType),
       years: yearsResult.map(y => y.year).filter(Boolean) as number[],
     })

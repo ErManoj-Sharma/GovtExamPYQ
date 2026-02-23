@@ -17,7 +17,17 @@ export async function GET(req: NextRequest, { params }: { params: { id: string }
       return NextResponse.json({ error: 'Question not found' }, { status: 404 })
     }
 
-    return NextResponse.json(question)
+    // Parse questionTopic from JSON string to array if it's a string
+    let questionTopic = question.questionTopic
+    if (typeof questionTopic === 'string') {
+      try {
+        questionTopic = JSON.parse(questionTopic)
+      } catch {
+        // Keep as string if not valid JSON
+      }
+    }
+
+    return NextResponse.json({ ...question, questionTopic })
   } catch (e) {
     console.error('Error fetching question:', e)
     return NextResponse.json({ error: 'Failed to fetch question' }, { status: 500 })
@@ -32,6 +42,11 @@ export async function PATCH(req: NextRequest, { params }: { params: { id: string
 
   try {
     const body = await req.json()
+
+    // Convert questionTopic array to JSON string if it's an array
+    if (Array.isArray(body.questionTopic)) {
+      body.questionTopic = JSON.stringify(body.questionTopic)
+    }
 
     const question = await prisma.question.update({
       where: { id },

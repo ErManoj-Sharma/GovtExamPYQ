@@ -32,6 +32,12 @@ export async function GET(req: NextRequest) {
     }),
   ])
 
+  // Parse questionTopic from JSON string to array for each question
+  const parsedQuestions = questions.map(q => ({
+    ...q,
+    questionTopic: typeof q.questionTopic === 'string' ? JSON.parse(q.questionTopic) : q.questionTopic
+  }))
+
   const examTypes = await prisma.question.findMany({
     select: { examType: true },
     distinct: ['examType'],
@@ -49,7 +55,7 @@ export async function GET(req: NextRequest) {
   })
 
   return NextResponse.json({
-    questions,
+    questions: parsedQuestions,
     total,
     page,
     examTypes: examTypes.map(e => e.examType),
@@ -87,13 +93,16 @@ export async function POST(req: NextRequest) {
   }
 
   try {
+    // Convert questionTopic array to JSON string if it's an array
+    const topicValue = Array.isArray(questionTopic) ? JSON.stringify(questionTopic) : questionTopic
+
     const question = await prisma.question.create({
       data: {
         examName,
         examType,
         questionNumber,
         questionText,
-        questionTopic,
+        questionTopic: topicValue,
         options,
         correctAnswer,
         autoAssigned: false,

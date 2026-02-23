@@ -1,6 +1,8 @@
 'use client'
 import { useState, useEffect } from 'react'
 import { useRouter, useParams } from 'next/navigation'
+import MultiSelect from '@/app/Components/MultiSelect'
+import { categories } from '@/app/Constants/category'
 
 interface Question {
   id: number
@@ -8,7 +10,7 @@ interface Question {
   examType: string
   questionNumber: number
   questionText: string
-  questionTopic: string
+  questionTopic: string | string[]
   options: Record<string, string>
   correctAnswer: string
   imageRequired: boolean
@@ -33,7 +35,7 @@ export default function EditQuestionPage() {
     examType: '',
     questionNumber: 1,
     questionText: '',
-    questionTopic: '',
+    questionTopic: [] as string[],
     optionA: '',
     optionB: '',
     optionC: '',
@@ -64,14 +66,18 @@ export default function EditQuestionPage() {
           const question = data as Question
           // Handle questionTopic that can be string or array
           const topicValue = question.questionTopic
-          const topicString = Array.isArray(topicValue) ? topicValue.join(', ') : String(topicValue || '')
+          const topicArray = Array.isArray(topicValue) 
+            ? topicValue 
+            : typeof topicValue === 'string' 
+              ? topicValue.split(',').map(t => t.trim()).filter(Boolean)
+              : []
           
           setFormData({
             examName: question.examName,
             examType: question.examType,
             questionNumber: question.questionNumber,
             questionText: question.questionText,
-            questionTopic: topicString,
+            questionTopic: topicArray,
             optionA: question.options.A || '',
             optionB: question.options.B || '',
             optionC: question.options.C || '',
@@ -215,11 +221,11 @@ export default function EditQuestionPage() {
 
         <div>
           <label className="block text-sm font-medium mb-1 dark:text-white">Subject/Topic *</label>
-          <input
-            type="text"
-            value={formData.questionTopic}
-            onChange={(e) => setFormData({ ...formData, questionTopic: e.target.value })}
-            className="w-full p-2 border rounded dark:bg-primary-dark-200 dark:text-black"
+          <MultiSelect
+            options={categories}
+            selected={formData.questionTopic}
+            onChange={(selected) => setFormData({ ...formData, questionTopic: selected })}
+            placeholder="Search and select subjects..."
             required
           />
         </div>
