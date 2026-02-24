@@ -15,26 +15,22 @@ const getTopicDisplay = (topic) => {
 // Helper to render topic chips (shows first 2 chips + count)
 const TopicChips = ({ topic }) => {
     if (!topic) return null;
-    
+
     const topics = Array.isArray(topic) ? topic : [topic];
     const displayTopics = topics.slice(0, 2);
     const remainingCount = topics.length - 2;
-    
+
     return (
         <div className="flex items-center gap-1 flex-wrap">
             {displayTopics.map((t, idx) => (
-                <span 
-                    key={idx} 
+                <span
+                    key={idx}
                     className="bg-primary-100 text-primary-800 text-xs font-medium px-2 py-0.5 rounded dark:bg-primary-dark-100 dark:text-primary-dark-800"
                 >
                     {t}
                 </span>
             ))}
-            {remainingCount > 0 && (
-                <span className="bg-primary-100 text-primary-800 text-xs font-medium px-2 py-0.5 rounded dark:bg-primary-dark-100 dark:text-primary-dark-800">
-                    +{remainingCount}
-                </span>
-            )}
+
         </div>
     );
 };
@@ -223,7 +219,7 @@ const QuizList = ({ question }) => {
     const renderMatchingQuestion = () => {
         const qType = question.questionType || question.question_type || '';
         let description = question.description;
-        
+
         // If description is a string, try to parse it (handles JSON string from DB)
         if (typeof description === 'string') {
             try {
@@ -233,7 +229,7 @@ const QuizList = ({ question }) => {
                 return null;
             }
         }
-        
+
         // Check for match list question type (case insensitive)
         if (!qType.toLowerCase().includes('match_list')) {
             return null;
@@ -290,7 +286,7 @@ const QuizList = ({ question }) => {
 
     const getOptionClasses = (key) => {
         const correctAnswer = question.correctAnswer || question.correct_answer;
-        
+
         if (!selected) {
             return 'bg-primary-50 hover:bg-primary-100 dark:hover:text-black dark:bg-black dark:hover:bg-primary-dark-100 dark:text-white';
         }
