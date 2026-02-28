@@ -33,10 +33,17 @@ export async function GET(req: NextRequest) {
   ])
 
   // Parse questionTopic from JSON string to array for each question
-  const parsedQuestions = questions.map(q => ({
-    ...q,
-    questionTopic: typeof q.questionTopic === 'string' ? JSON.parse(q.questionTopic) : q.questionTopic
-  }))
+  const parsedQuestions = questions.map(q => {
+    let topic = q.questionTopic
+    if (typeof topic === 'string') {
+      try {
+        topic = JSON.parse(topic)
+      } catch {
+        // Keep as string if not valid JSON
+      }
+    }
+    return { ...q, questionTopic: topic }
+  })
 
   const examTypes = await prisma.question.findMany({
     select: { examType: true },
