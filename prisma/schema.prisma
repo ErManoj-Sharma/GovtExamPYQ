@@ -1,0 +1,33 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Question {
+  id             Int      @id @default(autoincrement())
+  examName       String
+  examType       String
+  questionNumber Int
+  questionText   String
+  questionTopic  String
+  options        Json
+  correctAnswer  String
+  autoAssigned   Boolean  @default(false)
+  verified       Boolean  @default(true)
+  imageRequired  Boolean  @default(false)
+  imageUrl       String?
+  questionType   String?
+  description    Json?
+  year           Int?
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  @@unique([examName, questionNumber])
+  @@index([examType])
+  @@index([questionTopic])
+  @@index([year])
+}

@@ -6,7 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "db:push": "prisma db push",
+    "db:generate": "prisma generate",
+    "db:seed": "tsx scripts/seed.ts",
+    "db:studio": "prisma studio",
+    "postinstall": "prisma generate"
   },
   "dependencies": {
     "@fullcalendar/core": "^6.1.20",
@@ -15,9 +20,14 @@
     "@fullcalendar/list": "^6.1.20",
     "@fullcalendar/react": "^6.1.20",
     "@fullcalendar/rrule": "^6.1.20",
+    "@neondatabase/serverless": "^1.0.2",
+    "@prisma/adapter-neon": "^7.4.1",
+    "@prisma/client": "^5.22.0",
+    "iron-session": "^8.0.4",
     "lucide-react": "^0.562.0",
     "mermaid": "^11.7.0",
     "next": "14.2.35",
+    "prisma": "^5.22.0",
     "react": "^18",
     "react-dom": "^18",
     "react-icons": "^5.3.0",
@@ -28,14 +38,17 @@
     "remark-gfm": "^4.0.1",
     "rrule": "^2.8.1",
     "slugify": "^1.6.6",
-    "styled-components": "^6.1.12"
+    "styled-components": "^6.1.12",
+    "ws": "^8.19.0"
   },
   "devDependencies": {
     "@svgr/webpack": "^8.1.0",
+    "@types/ws": "^8.18.1",
     "eslint": "^8",
     "eslint-config-next": "14.2.5",
     "postcss": "^8",
     "tailwindcss": "^3.4.9",
-    "tailwindcss-animated": "^1.1.2"
+    "tailwindcss-animated": "^1.1.2",
+    "tsx": "^4.21.0"
   }
 }

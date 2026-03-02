@@ -1,6 +1,7 @@
 "use client";
 import React, { useState, useEffect } from 'react';
-import { CheckCircle, XCircle, Clock, Download, Trash2, Eye, AlertTriangle } from 'lucide-react';
+import Link from 'next/link';
+import { CheckCircle, XCircle, Clock, Download, Trash2, Eye, AlertTriangle, Edit } from 'lucide-react';
 
 const AdminDashboard = () => {
     const [reports, setReports] = useState([]);
@@ -207,7 +208,7 @@ ${report.customReason ? `Additional Details: ${report.customReason}` : ''}
                     <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">
                         📊 Question Reports Dashboard
                     </h1>
-                    <p className="text-gray-600 dark:text-gray-400">
+                    <p className="text-gray-600 dark:text-white">
                         Manage and review reported questions from users
                     </p>
                 </div>
@@ -241,31 +242,31 @@ ${report.customReason ? `Additional Details: ${report.customReason}` : ''}
 
                 {/* Stats Cards */}
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
-                    <div className="bg-white dark:bg-gray-800 rounded-lg p-4 border border-gray-200 dark:border-gray-700">
-                        <div className="text-sm text-gray-600 dark:text-gray-400">Total Reports</div>
+                    <div className="bg-white dark:bg-light-black rounded-lg p-4 border border-gray-200 dark:border-gray-700">
+                        <div className="text-sm text-gray-600 dark:text-white">Total Reports</div>
                         <div className="text-3xl font-bold text-gray-900 dark:text-white">{stats.total}</div>
                     </div>
-                    <div className="bg-white dark:bg-gray-800 rounded-lg p-4 border border-gray-200 dark:border-gray-700">
-                        <div className="text-sm text-gray-600 dark:text-gray-400">Pending</div>
-                        <div className="text-3xl font-bold text-yellow-600">{stats.pending}</div>
+                    <div className="bg-white dark:bg-light-black rounded-lg p-4 border border-gray-200 dark:border-gray-700">
+                        <div className="text-sm text-gray-600 dark:text-red-400">Pending</div>
+                        <div className="text-3xl font-bold text-red-400">{stats.pending}</div>
                     </div>
-                    <div className="bg-white dark:bg-gray-800 rounded-lg p-4 border border-gray-200 dark:border-gray-700">
-                        <div className="text-sm text-gray-600 dark:text-gray-400">Resolved</div>
+                    <div className="bg-white dark:bg-light-black rounded-lg p-4 border border-gray-200 dark:border-gray-700">
+                        <div className="text-sm text-gray-600 dark:text-green-400">Resolved</div>
                         <div className="text-3xl font-bold text-green-600">{stats.resolved}</div>
                     </div>
                 </div>
 
                 {/* Filters & Actions */}
-                <div className="bg-white dark:bg-gray-800 rounded-lg p-4 mb-6 border border-gray-200 dark:border-gray-700">
+                <div className="bg-white dark:bg-light-black rounded-lg p-4 mb-6 border border-gray-200 dark:border-gray-700">
                     <div className="flex flex-wrap items-center justify-between gap-4">
                         <div className="flex items-center gap-2">
-                            <label className="text-sm font-medium text-gray-700 dark:text-gray-300">
+                            <label className="text-sm font-medium text-gray-700 dark:text-white">
                                 Filter by Status:
                             </label>
                             <select
                                 value={statusFilter}
                                 onChange={(e) => setStatusFilter(e.target.value)}
-                                className="px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-700 text-gray-900 dark:text-white focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                                className="px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-light-black text-gray-900 dark:text-white focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                             >
                                 <option value="all">All ({reports.length})</option>
                                 <option value="pending">Pending ({stats.pending})</option>
@@ -294,7 +295,7 @@ ${report.customReason ? `Additional Details: ${report.customReason}` : ''}
                 </div>
 
                 {/* Reports List */}
-                <div className="bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700">
+                <div className="bg-white dark:bg-light-black rounded-lg border border-gray-200 dark:border-gray-700">
                     {loading ? (
                         <div className="p-8 text-center">
                             <div className="inline-block animate-spin rounded-full h-8 w-8 border-4 border-gray-300 border-t-blue-600 mb-4"></div>
@@ -303,7 +304,7 @@ ${report.customReason ? `Additional Details: ${report.customReason}` : ''}
                     ) : filteredReports.length === 0 ? (
                         <div className="p-8 text-center text-gray-600 dark:text-gray-400">
                             <div className="text-4xl mb-2">📭</div>
-                            <p>No reports found</p>
+                            <p className='dark:text-white'>No reports found</p>
                             {statusFilter !== 'all' && (
                                 <button
                                     onClick={() => setStatusFilter('all')}
@@ -320,11 +321,11 @@ ${report.customReason ? `Additional Details: ${report.customReason}` : ''}
                                     <div className="flex items-start justify-between gap-4">
                                         <div className="flex-1">
                                             <div className="flex items-center gap-3 mb-2 flex-wrap">
-                                                <span className="text-sm font-mono text-gray-500 dark:text-gray-400">
+                                                <span className="text-sm font-mono text-gray-500 dark:text-white">
                                                     {report.id}
                                                 </span>
                                                 {getStatusBadge(report.status)}
-                                                <span className="text-xs text-gray-500 dark:text-gray-400">
+                                                <span className="text-xs text-gray-500 dark:text-white">
                                                     {new Date(report.timestamp).toLocaleString()}
                                                 </span>
                                             </div>
@@ -333,26 +334,43 @@ ${report.customReason ? `Additional Details: ${report.customReason}` : ''}
                                                 <span className="font-semibold text-gray-900 dark:text-white">
                                                     Question #{report.questionNumber}
                                                 </span>
-                                                <span className="text-sm text-gray-600 dark:text-gray-400 ml-2">
+                                                <span className="text-sm text-gray-600 dark:text-white ml-2">
                                                     {report.examName} • {report.questionTopic}
                                                 </span>
                                             </div>
 
-                                            <div className="text-sm text-gray-700 dark:text-gray-300 mb-2">
+                                            <div className="text-sm text-gray-700 dark:text-white mb-2">
                                                 <strong>Issue:</strong> {report.reason}
                                             </div>
 
                                             {report.reportedBy && (
-                                                <div className="text-xs text-gray-500 dark:text-gray-400">
+                                                <div className="text-xs text-gray-500 dark:text-white">
                                                     Reported by: {report.reportedBy}
                                                 </div>
                                             )}
                                         </div>
 
                                         <div className="flex gap-2">
+                                            {report.questionId ? (
+                                                <Link
+                                                    href={`/admin/questions/${report.questionId}/edit`}
+                                                    className="p-2 text-primary dark:text-primary-dark hover:bg-primary-50 dark:hover:bg-primary-dark-900/20 rounded-lg transition-colors"
+                                                    title="Edit Question"
+                                                >
+                                                    <Edit size={18} />
+                                                </Link>
+                                            ) : (
+                                                <span
+                                                    className="p-2 text-gray-400 cursor-not-allowed rounded-lg"
+                                                    title="Question ID not available. Report was created before database migration."
+                                                >
+                                                    <Edit size={18} />
+                                                </span>
+                                            )}
+
                                             <button
                                                 onClick={() => setSelectedReport(report)}
-                                                className="p-2 text-blue-600 hover:bg-blue-50 dark:hover:bg-blue-900/20 rounded-lg transition-colors"
+                                                className="p-2 text-primary dark:text-primary-dark hover:bg-primary-50 dark:hover:bg-primary-dark-900/20 rounded-lg transition-colors"
                                                 title="View Details"
                                             >
                                                 <Eye size={18} />

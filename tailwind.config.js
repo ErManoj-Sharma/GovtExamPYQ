@@ -25,6 +25,12 @@ module.exports = {
       offwhite: "#C5C5C4 ",
       black: "#0d1117",
       "light-black": "#191d2b",
+      yellow: {
+        DEFAULT: "#fff70091",
+        100: "oklch(97.3% 0.071 103.193)",
+        300: "oklch(90.5% 0.182 98.111)",
+        800: "oklch(47.6% 0.114 61.907)"
+      },
       red: {
         DEFAULT: "#ef4444",
         900: "#7f1d1d",
