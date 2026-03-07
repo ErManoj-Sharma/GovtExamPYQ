@@ -33,7 +33,10 @@ const SIDEBAR_STYLES = `
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     border-bottom: 1px solid var(--border);
+    cursor: pointer;
+    transition: opacity 0.15s;
   }
+  .sidebar-logo:hover { opacity: 0.8; }
   .sidebar-section { padding: 16px 12px; }
   .sidebar-label {
     font-size: 10px;
@@ -113,12 +116,13 @@ export default function Sidebar({
     onToggleSubject,
     onNavigate,
     extraClass = "",
+    onHomeClick,
 }) {
     return (
         <>
             <style>{SIDEBAR_STYLES}</style>
-            <aside className={`sidebar ${extraClass}`.trim()}>
-                <div className="sidebar-logo">ExamPrep</div>
+            <aside className={`sidebar no-scrollbar ${extraClass}`.trim()}>
+                <div className="sidebar-logo" onClick={onHomeClick}>ExamPrep</div>
                 <div className="sidebar-section">
                     <div className="sidebar-label">Subjects</div>
                     {subjects.map((subject) => (
