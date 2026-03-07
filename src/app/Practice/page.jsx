@@ -9,12 +9,11 @@ import TopicCards from "../Components/Practice/TopicCards";
 import QuestionRenderer from "../Components/Practice/QuestionRenderer";
 import QuestionNav from "../Components/Practice/QuestionNav";
 import ScoreBar from "../Components/Practice/ScoreBar";
-import { GLOBAL_STYLES } from "../../lib/styles";
 
 async function fetchPracticeData(params = {}) {
   let url = '/api/practice';
   const queryParams = [];
-  
+
   if (params.sidebar) {
     queryParams.push(`sidebar=true`);
   }
@@ -24,11 +23,11 @@ async function fetchPracticeData(params = {}) {
   if (params.topic) {
     queryParams.push(`topic=${encodeURIComponent(params.topic)}`);
   }
-  
+
   if (queryParams.length > 0) {
     url += '?' + queryParams.join('&');
   }
-  
+
   const res = await fetch(url);
   const data = await res.json();
   return data;
@@ -37,15 +36,15 @@ async function fetchPracticeData(params = {}) {
 export default function PracticePage() {
   const router = useRouter();
   const searchParams = useSearchParams();
-  
+
   const subjectParam = searchParams.get("subject");
   const topicParam = searchParams.get("topic");
-  
+
   const [sidebarData, setSidebarData] = useState([]);
   const [topics, setTopics] = useState([]);
   const [questions, setQuestions] = useState([]);
   const [loading, setLoading] = useState(true);
-  
+
   const [openSubjects, setOpenSubjects] = useState(new Set());
   const [mobileOpen, setMobileOpen] = useState(false);
   const [answers, setAnswers] = useState({});
@@ -130,10 +129,10 @@ export default function PracticePage() {
 
   const handleSelectAnswer = useCallback((answer) => {
     if (showResults) return;
-    
+
     const question = questions[currentIndex];
     if (!question) return;
-    
+
     setAnswers(prev => ({
       ...prev,
       [question.question_number]: answer
@@ -173,7 +172,7 @@ export default function PracticePage() {
   if (loading) {
     return (
       <>
-        <style>{GLOBAL_STYLES}</style>
+        <style></style>
         <div className="layout">
           <div className="main">
             <div className="content" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: '100vh' }}>
@@ -190,7 +189,7 @@ export default function PracticePage() {
 
   return (
     <>
-      <style>{GLOBAL_STYLES}</style>
+      <style></style>
       <div className="layout">
         <Sidebar
           subjects={sidebarData}
@@ -230,7 +229,7 @@ export default function PracticePage() {
 
           <div className="content" style={{ paddingBottom: '100px' }}>
             {hasSubject && !hasTopic && (
-              <TopicCards 
+              <TopicCards
                 subject={currentSubject}
                 topics={topics}
                 onSelect={handleTopicSelect}
@@ -248,7 +247,7 @@ export default function PracticePage() {
                   onSelectAnswer={handleSelectAnswer}
                   showResult={showResults}
                 />
-                
+
                 <QuestionNav
                   questions={questions}
                   answers={answers}
@@ -256,7 +255,7 @@ export default function PracticePage() {
                   currentIndex={currentIndex}
                   onJump={handleJumpToQuestion}
                 />
-                
+
                 <ScoreBar
                   total={questions.length}
                   answeredCount={getAnsweredCount()}
